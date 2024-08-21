@@ -39,6 +39,7 @@ html {
 	--pink: #ED76AA;
 	--green200: #DAD500;
 	--green50: #EDF4D7;
+	--green40: #F6F9EB;
 	--green100: #A6C739;
 	--blue500: #1A1A30;
 	--blue400: #404066;
@@ -151,9 +152,8 @@ textarea::-ms-input-placeholder {
 	font-family: inherit;
 }
 
-a { text-decoration: none; border: 0; outline: none !important; }
-a,
-a:hover { color: inherit; }
+a { text-decoration: none; border: 0; outline: none !important; color: inherit; }
+
 a, button, input[type=submit] {
 	outline:none;
 	-webkit-transition: all .3s ease-in-out;
@@ -181,6 +181,8 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 .primary-btn:hover { background: var(--green300); }
 
 .btnbox { display: flex; position: relative; }
+
+.container { padding: 0 15px; }
 
 @media (min-width: 375px) {
 	.container {
@@ -221,9 +223,13 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 
 /*============ Default Css end ============*/
 
-.header { display: block; position: relative; width: 100%; }
-.main_header { max-width: 1200px; margin: 16px auto 0 auto; display: flex; align-items: flex-start; justify-content: space-between; }
-.main_header .logo { display: flex; width: 158px; height: 158px; }
+/*============ Homepage style start ============*/
+
+.header { display: block; position: relative; z-index: 999; width: 100%; }
+.home_header .main_header { max-width: 1200px; margin: 16px auto 0 auto; display: flex; align-items: flex-start; justify-content: space-between; }
+.main_header { max-width: 1200px; margin: 16px auto; display: flex; align-items: center; justify-content: space-between; }
+.home_header .main_header .logo { display: flex; width: 158px; height: 158px; }
+.main_header .logo { display: flex; width: 96px; height: 96px; }
 .main_header .logo a { display: flex; }
 .main_header .logo a img { width: 100%; height: auto; }
 .main_header .navi_wrapper { display: flex; align-items: center; margin-top: 26px; margin-bottom: 36px; }
@@ -233,3 +239,44 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 .main_header .navi_wrapper .navigation li a { font-family: 'Montserrat'; font-size: 14px; font-weight: 500; line-height: 1.71; color: var(--blue500); display: flex; transition: all 0.3s ease-in-out; }
 .main_header .navi_wrapper .navigation li a:hover,
 .main_header .navi_wrapper .navigation li.current-menu-item a { color: var(--green100); }
+.main_header .navi_wrapper .btnbox { margin-left: 32px; }
+.main_header .navi_wrapper .menu-btn { display: none; }
+
+
+.home_banner { display: block; margin: -46px 0 0 0; position: relative; }
+.home_bnr_wrapper { display: block; position: relative; }
+.home_bnr_wrapper .bnr_img { position: relative; display: flex; width: 100%; overflow: hidden; clip-path: polygon(0 0, 100% 0%, 100% 92%, 0% 106%); border-radius: 0 40px; }
+.home_bnr_wrapper .bnr_img::after { content: ''; display: block; padding: 20.834% 50%; }
+.home_bnr_wrapper .bnr_img img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+.home_bnr_wrapper .bnr_shape { display: flex; position: absolute; right: -54px; bottom: -2px; width: 840px; height: 104px; }
+.home_bnr_wrapper .bnr_shape img { width: 100%; height: auto; object-fit: cover; }
+.home_bnr_wrapper .bnr_text { max-width: 790px; position: absolute; bottom: 80px; left: 122px; }
+.home_bnr_wrapper .bnr_text h1 { margin-bottom: 20px; }
+.tag_block { display: flex; }
+.tag_block .tag { display: flex; background: var(--pink); border-radius: 0 20px; padding: 10px 20px; font-family: 'Museo 500'; font-size: 42px; font-weight: 500; line-height: 1.19; color: var(--white); }
+.home_bnr_wrapper .rate_section { max-width: 124px; position: absolute; top: 76px; right: 160px; display: flex; flex-direction: column; align-items: center; }
+.home_bnr_wrapper .rate_section ul { display: flex; margin-bottom: 10px; }
+.home_bnr_wrapper .rate_section ul li { display: flex; height: 20px; width: 20px; }
+.home_bnr_wrapper .rate_section ul li img { width: 100%; height: auto; }
+.home_bnr_wrapper .rate_section ul li + li { margin-left: 5px; }
+.home_bnr_wrapper .rate_section i { display: flex; font-style: normal; font-family: 'Montserrat'; font-size: 14px; font-weight: 500; line-height: 1.71; text-align: center; color: var(--white); }
+
+
+.maintain_section { display: block; position: relative; margin: 44px 0 0 0; }
+.maintain_wrap { max-width: 1192px; margin: 0 auto; }
+.maintain_wrap .row { margin: 0 -10px; }
+.maintain_wrap .row>* { padding: 0 10px; }
+.maintain_wrap .maintain_card { position: relative; width: 100%; height: 100%; display: flex; align-items: flex-start; justify-content: center; }
+.maintain_wrap .maintain_card .block_inner { position: relative; width: 100%; padding: 50px; text-align: center; }
+.maintain_wrap .maintain_card .block_inner .icon_Wrap { display: flex; justify-content: center; align-items: center; width: 120px; height: 120px; margin: 0 auto; background: var(--green40); border-radius: 50%; }
+.maintain_wrap .maintain_card .block_inner .icon_Wrap .icon { display: flex; max-width: 50px; }
+.maintain_wrap .maintain_card .block_inner .icon_Wrap .icon img { width: 100%; height: auto; }
+.maintain_wrap .maintain_card .block_inner .title { margin-top: 24px; display: flex; justify-content: center; font-family: 'Museo 700'; font-size: 26px; font-weight: 700; line-height: 1.23; color: var(--blue500); }
+.maintain_wrap .maintain_card .block_inner p { margin-top: 24px; font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1.5; color: var(--blue500); }
+
+
+.home_kitchen_section { display: block; position: relative; margin: 80px 0 0 0; }
+.home_inner_kitchen { max-width: 1192px; margin: 0 auto; }
+.home_inner_kitchen .inner_kitchen {  }
+
+/*============ Homepage style end ============*/
