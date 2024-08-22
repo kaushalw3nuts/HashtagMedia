@@ -13,6 +13,18 @@ jQuery(document).ready(function(){
 			},
 		});
 	}
+
+	if ((jQuery(window).width() < 768) && (jQuery('.customer_slider').length > 0)) {
+		
+		new Swiper(".customer_slider", {
+			breakpoints: {
+				0: {
+					slidesPerView: 1,
+					spaceBetween: 20,
+				},
+			},
+		});
+	}
 });
 
 function bluesticky()

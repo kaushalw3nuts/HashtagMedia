@@ -339,7 +339,7 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 .review_slider .review_block { transition: all 0.3s ease-in-out; background: var(--lightwhite); border-radius: 24px; border: 1px solid var(--lightwhite); position: relative; width: 100%; height: 100%; display: flex; align-items: flex-start; justify-content: center; }
 .review_slider .review_block:hover { border-color: var(--pink); }
 .review_slider .review_block .inner_review { position: relative; width: 100%; padding: 44px 40px 40px 40px; height: 100%; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; }
-.review_slider .review_block .inner_review .rate_block { display: flex; align-items: center; margin-bottom: 32px; }
+.review_slider .review_block .inner_review .rate_block { display: flex; align-items: center; margin-bottom: 32px; width: 100%; }
 .review_slider .review_block .inner_review .rate_block ul { display: flex; align-items: center; }
 .review_slider .review_block .inner_review .rate_block ul li { display: flex; height: 16px; width: 16px; }
 .review_slider .review_block .inner_review .rate_block ul li img { width: 100%; height: auto; }
@@ -350,7 +350,7 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 .review_slider .review_block .inner_review .content .title { font-family: 'Museo 500'; font-size: 26px; font-weight: 500; line-height: 1.23; color: var(--blue500); margin-bottom: 40px; }
 .review_slider .review_block .inner_review .content .coma { display: flex; margin-left: auto; width: 36px; height: 26px; }
 .review_slider .review_block .inner_review .content .coma img { width: 100%; height: auto; }
-.review_slider .review_block .inner_review .profile_box { display: flex; align-items: center; margin-top: auto; }
+.review_slider .review_block .inner_review .profile_box { display: flex; align-items: center; margin-top: auto; width: 100%; }
 .review_slider .review_block .inner_review .profile_box .profile_img { display: flex; overflow: hidden; border-radius: 50%; height: 48px; width: 48px; }
 .review_slider .review_block .inner_review .profile_box .profile_img img { width: 100%; height: auto; }
 .review_slider .review_block .inner_review .profile_box .profile_detail { display: flex; flex-direction: column; margin-left: 16px; }
@@ -406,6 +406,39 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 
 /*============ Homepage style end ============*/
 
+/*============ Klantervaringen style start ============*/
+
+.klantervaringen_wrapper { padding: 20px 0; }
+.experience_listing { max-width: 990px; position: relative; padding: 76px 0 0 0; }
+.customer_experience { padding: 44px 60px 40px 40px; border-radius: 24px; background: var(--lightwhite); }
+.customer_experience + .customer_experience { margin-top: 40px; }
+.customer_experience .rate_block { display: flex; align-items: center; margin-bottom: 34px; width: 100%; }
+.customer_experience .rate_block ul { display: flex; align-items: center; }
+.customer_experience .rate_block ul li { display: flex; height: 16px; width: 16px; }
+.customer_experience .rate_block ul li img { width: 100%; height: auto; }
+.customer_experience .rate_block ul li + li { margin-left: 2px; }
+.customer_experience .rate_block .rating { display: flex; margin-left: 10px; font-family: 'Montserrat'; font-size: 14px; font-weight: 500; line-height: 1.71; color: var(--black); }
+.customer_experience .rate_block .rating span { display: inline-flex; }
+.customer_experience h4 { font-family: 'Museo 500'; font-weight: 500; font-size: 26px; line-height: 1.23; color: var(--blue500); margin-bottom: 18px; }
+.customer_slider { margin-top: 44px; }
+.customer_slider .swiper-wrapper { flex-wrap: wrap; }
+.customer_slider .swiper-slide { max-width: 283px; }
+.customer_slider .customer_img { position: relative; width: 100%; display: flex; background: var(--blue200); overflow: hidden; border-radius: 0 16px; }
+.customer_slider .customer_img img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+.customer_slider .customer_img::after { content: ''; display: block; padding: 45.41% 50%; }
+.customer_slider .swiper-slide + .swiper-slide { margin-left: 20px; }
+.customer_experience .profile_box { display: flex; align-items: center; margin-top: 30px; width: 100%; }
+.customer_experience .profile_box .profile_img { display: flex; overflow: hidden; border-radius: 50%; height: 48px; width: 48px; }
+.customer_experience .profile_box .profile_img img { width: 100%; height: auto; }
+.customer_experience .profile_box .profile_detail { display: flex; flex-direction: column; margin-left: 16px; }
+.customer_experience .profile_box .profile_detail span { display: flex; font-family: 'Montserrat'; font-size: 16px; font-weight: 700; line-height: 1.5; color: var(--black); text-transform: capitalize; }
+.customer_experience .profile_box .profile_detail i { display: flex; font-style: normal; font-family: 'Montserrat'; font-size: 16px; font-weight: 400; line-height: 1.5; color: var(--blue300); text-transform: capitalize; }
+.experience_listing .btnbox { margin-top: 40px; justify-content: center; }
+
+
+.klantervaringen-review-detail { padding: 56px 0 0 0; }
+
+/*============ Klantervaringen style end ============*/
 
 /* Wrappen Page Start */
 /* Inner Banner Start */
