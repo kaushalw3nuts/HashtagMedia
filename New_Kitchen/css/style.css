@@ -49,9 +49,10 @@ html {
 	--white: #FFFFFF;
 	--green300: #9EBD36;
 	--black200: #252525;
+	--black: #000000;
 }
 
-body { margin: 0; padding: 0; font-style: normal; font-size: 20px; line-height: normal; background: var(--white); color: var(--blue500); }
+body { margin: 0; padding: 0; font-style: normal; font-family: 'Montserrat'; font-size: 20px; line-height: normal; background: var(--white); color: var(--blue500); }
 
 body.open-nav { overflow: hidden; }
 
@@ -177,7 +178,7 @@ h3 { font-family: 'Museo 500'; font-size: 42px; font-weight: 500; line-height: 1
 
 p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1.5; color: var(--blue500); }
 
-.primary-btn { position: relative; display: flex; height: 50px; padding: 0 32px; font-family: 'Montserrat'; font-weight: 500; font-size: 14px; color: var(--white); align-items: center; text-transform: uppercase; background: var(--green100); border-radius: 8px; justify-content: center; line-height: 1.28; }
+.primary-btn { position: relative; display: flex; height: 50px; padding: 0 32px; font-family: 'Montserrat'; font-weight: 500; font-size: 14px; color: var(--white); align-items: center; background: var(--green100); border-radius: 8px; justify-content: center; line-height: 1.28; }
 .primary-btn:hover { background: var(--green300); }
 
 .btnbox { display: flex; position: relative; }
@@ -215,13 +216,17 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 	}
 }
 
+.row { margin: 0 -10px !important; }
+.row > [class^="col-"] { padding: 0 10px !important; }
+
 /*============ Default Css end ============*/
 
 /*============ Homepage style start ============*/
 
 .header { display: block; position: relative; z-index: 999; width: 100%; }
-.home_header .main_header { max-width: 1200px; margin: 16px auto 0 auto; display: flex; align-items: flex-start; justify-content: space-between; }
-.main_header { max-width: 1200px; margin: 16px auto; display: flex; align-items: center; justify-content: space-between; }
+.header .container { max-width: 1230px; }
+.home_header .main_header { margin: 16px auto 0 auto; display: flex; align-items: flex-start; justify-content: space-between; }
+.main_header { margin: 16px auto; display: flex; align-items: center; justify-content: space-between; }
 .home_header .main_header .logo { display: flex; width: 158px; height: 158px; }
 .main_header .logo { display: flex; width: 96px; height: 96px; }
 .main_header .logo a { display: flex; }
@@ -238,6 +243,7 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 
 
 .home_banner { display: block; margin: -46px 0 0 0; position: relative; }
+.home_banner .container { max-width: 1470px; }
 .home_bnr_wrapper { display: block; position: relative; }
 .home_bnr_wrapper .bnr_img { position: relative; display: flex; width: 100%; overflow: hidden; clip-path: polygon(0 0, 100% 0%, 100% 92%, 0% 106%); border-radius: 0 40px; }
 .home_bnr_wrapper .bnr_img::after { content: ''; display: block; padding: 20.834% 50%; }
@@ -257,9 +263,6 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 
 
 .maintain_section { display: block; position: relative; margin: 44px 0 0 0; }
-.maintain_wrap { max-width: 1192px; margin: 0 auto; }
-.maintain_wrap .row { margin: 0 -10px; }
-.maintain_wrap .row>* { padding: 0 10px; }
 .maintain_wrap .maintain_card { position: relative; width: 100%; height: 100%; display: flex; align-items: flex-start; justify-content: center; }
 .maintain_wrap .maintain_card .block_inner { position: relative; width: 100%; padding: 50px; text-align: center; }
 .maintain_wrap .maintain_card .block_inner .icon_Wrap { display: flex; justify-content: center; align-items: center; width: 120px; height: 120px; margin: 0 auto; background: var(--green40); border-radius: 50%; }
@@ -270,8 +273,75 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 
 
 .home_kitchen_section { display: block; position: relative; margin: 80px 0 0 0; }
-.home_inner_kitchen { max-width: 1192px; margin: 0 auto; }
-.home_inner_kitchen .inner_kitchen {  }
+.home_inner_kitchen { display: block; position: relative; }
+.inner_kitchen { display: block; position: relative; }
+.inner_kitchen .left_part { max-width: 586px; margin-left: auto; }
+.inner_kitchen .left_part h3 { margin-bottom: 24px; }
+.inner_kitchen .left_part p strong { font-weight: 700; display: inline-flex; }
+.inner_kitchen .left_part .btnbox { margin-top: 32px; }
+.inner_kitchen .right_part { position: relative; display: flex; width: 100%; overflow: hidden; border-radius: 0 24px; }
+.inner_kitchen .right_part img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+.inner_kitchen .right_part::after { content: ''; display: block; padding: 45.362% 50%; }
+.inner_kitchen .row:nth-child(odd) { flex-direction: row-reverse; }
+.inner_kitchen .row:nth-child(odd) .left_part { margin-right: auto; margin-left: 0; }
+.inner_kitchen .row { align-items: center; }
+.inner_kitchen .row + .row { margin-top: 120px !important; }
+.inner_kitchen .right_wrapper_part { width: 485px; position: relative; }
+.inner_kitchen .right_wrapper_part .row { margin: 0 -12px !important; row-gap: 24px; }
+.inner_kitchen .right_wrapper_part .row>* { padding: 0 12px !important; }
+.inner_kitchen .right_wrapper_part .person_img { display: block; position: relative; }
+.inner_kitchen .right_wrapper_part .person_img .image { display: flex; width: 100%; position: relative; border-radius: 0 24px; overflow: hidden; }
+.inner_kitchen .right_wrapper_part .person_img .image::after { content: ''; display: block; padding: 48.592% 50%; }
+.inner_kitchen .right_wrapper_part .person_img .image img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+.inner_kitchen .right_wrapper_part .person_img .tag_block { position: absolute; right: 16px; bottom: 16px; }
+.inner_kitchen .right_wrapper_part .person_img .tag_block .tag { border-radius: 0 10px; padding: 10px 16px; font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1.5; }
+
+
+.start_renovation_section { position: relative; background: var(--green50); border-radius: 24px; padding: 72px 0; margin: 120px 0; }
+.start_renovation_section .renovation_content { max-width: 720px; text-align: center; margin: 0 auto; }
+.start_renovation_section .renovation_content h3 { margin-bottom: 24px; }
+.start_renovation_section .renovation_content p { max-width: 522px; margin: 0 auto; }
+.start_renovation_section .renovation_content .btnbox { justify-content: center; margin-top: 32px; }
+
+
+.home_kitchen_inner_section { display: block; position: relative; }
+.kitchen_block_wrapper { display: block; position: relative; }
+.kitchen_block_wrapper .inner_kitchen .row { flex-direction: row-reverse; }
+.kitchen_block_wrapper .inner_kitchen .row .left_part { margin-left: 0; margin-right: auto; }
+.kitchen_block_wrapper .inner_kitchen .row:nth-child(odd) { flex-direction: row; }
+.kitchen_block_wrapper .inner_kitchen .row:nth-child(odd) .left_part { margin-right: 0; margin-left: auto; }
+
+
+.review_section { display: block; position: relative; margin: 120px 0; }
+.review_inner_section { position: relative; display: block; }
+.review_inner_section h3 { text-align: center; margin-bottom: 40px; }
+.review_slider .swiper-slide { max-width: 384px; height: auto; }
+.review_slider .swiper-slide + .swiper-slide { margin-left: 20px; }
+.review_slider .review_block { transition: all 0.3s ease-in-out; background: var(--lightwhite); border-radius: 24px; border: 1px solid var(--lightwhite); position: relative; width: 100%; height: 100%; display: flex; align-items: flex-start; justify-content: center; }
+.review_slider .review_block:hover { border-color: var(--pink); }
+.review_slider .review_block .inner_review { position: relative; width: 100%; padding: 44px 40px 40px 40px; height: 100%; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; }
+.review_slider .review_block .inner_review .rate_block { display: flex; align-items: center; margin-bottom: 32px; }
+.review_slider .review_block .inner_review .rate_block ul { display: flex; align-items: center; }
+.review_slider .review_block .inner_review .rate_block ul li { display: flex; height: 16px; width: 16px; }
+.review_slider .review_block .inner_review .rate_block ul li img { width: 100%; height: auto; }
+.review_slider .review_block .inner_review .rate_block ul li + li { margin-left: 2px; }
+.review_slider .review_block .inner_review .rate_block .rating { display: flex; margin-left: 10px; font-family: 'Montserrat'; font-size: 14px; font-weight: 500; line-height: 1.71; color: var(--black); }
+.review_slider .review_block .inner_review .rate_block .rating span { display: inline-flex; }
+.review_slider .review_block .inner_review .content { margin-bottom: 72px; position: relative; }
+.review_slider .review_block .inner_review .content .title { font-family: 'Museo 500'; font-size: 26px; font-weight: 500; line-height: 1.23; color: var(--blue500); margin-bottom: 40px; }
+.review_slider .review_block .inner_review .content .coma { display: flex; margin-left: auto; width: 36px; height: 26px; }
+.review_slider .review_block .inner_review .content .coma img { width: 100%; height: auto; }
+.review_slider .review_block .inner_review .profile_box { display: flex; align-items: center; margin-top: auto; }
+.review_slider .review_block .inner_review .profile_box .profile_img { display: flex; overflow: hidden; border-radius: 50%; height: 48px; width: 48px; }
+.review_slider .review_block .inner_review .profile_box .profile_img img { width: 100%; height: auto; }
+.review_slider .review_block .inner_review .profile_box .profile_detail { display: flex; flex-direction: column; margin-left: 16px; }
+.review_slider .review_block .inner_review .profile_box .profile_detail span { display: flex; font-family: 'Montserrat'; font-size: 16px; font-weight: 700; line-height: 1.5; color: var(--black); text-transform: capitalize; }
+.review_slider .review_block .inner_review .profile_box .profile_detail i { display: flex; font-style: normal; font-family: 'Montserrat'; font-size: 16px; font-weight: 400; line-height: 1.5; color: var(--blue300); text-transform: capitalize; }
+.review_inner_section .btnbox { justify-content: center; margin-top: 40px; }
+
+
+.footer { display: block; position: relative; background: var(--blue500); }
+.footer_main { padding-top: 58px; }
 
 /*============ Homepage style end ============*/
 
