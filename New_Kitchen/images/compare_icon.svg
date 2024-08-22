@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g id="compare_icon" transform="translate(3.74 -257)">
+    <g id="Group_4" data-name="Group 4" transform="translate(5.695 274)">
+      <path id="bx-caret-left" d="M13,17.112V5L7,11.056Z" transform="translate(-7 -5)" fill="#fff"/>
+      <path id="bx-caret-left-2" data-name="bx-caret-left" d="M7,17.112V5l6,6.056Z" transform="translate(13 -5)" fill="#fff"/>
+    </g>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(0.26 261)" fill="none" stroke="#fff" stroke-width="4">
+      <circle cx="19" cy="19" r="19" stroke="none"/>
+      <circle cx="19" cy="19" r="21" fill="none"/>
+    </g>
+  </g>
+</svg>
