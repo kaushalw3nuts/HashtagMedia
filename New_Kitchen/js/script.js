@@ -1,7 +1,18 @@
 "use strict";
 
 jQuery(document).ready(function(){
-
+	
+	if ((jQuery(window).width() < 768) && (jQuery('.review_slider').length > 0)) {
+		
+		new Swiper(".review_slider", {
+			breakpoints: {
+				0: {
+					slidesPerView: 1,
+					spaceBetween: 15,
+				},
+			},
+		});
+	}
 });
 
 function bluesticky()
