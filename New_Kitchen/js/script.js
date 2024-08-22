@@ -32,3 +32,8 @@ jQuery(window).on('load' ,function() {
 jQuery(window).resize(function() {
 	bluesticky();
 });
+
+
+jQuery(document).ready(function(){
+
+});
