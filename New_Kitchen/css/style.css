@@ -457,6 +457,10 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 /*============ Onze vernieuwers style start ============*/
 
 .onze_vernieuwers_wrapper .after_banner_sec { padding: 80px 0 40px 0; }
+.innovators_section { padding: 40px 0; }
+.innovators_section .kitchen_block_wrapper .inner_kitchen .row { flex-direction: row; }
+.innovators_section .kitchen_block_wrapper .inner_kitchen .row .left_part { margin-left: auto; margin-right: 0; }
+.innovators_section .kitchen_block_wrapper .inner_kitchen .row + .row { margin-top: 80px !important; }
 .onze_vernieuwers_inner_wrapper { padding: 40px 0 120px 0; }
 .onze_vernieuwers_inner_wrapper .start_renovation_section { margin: 0; }
 
