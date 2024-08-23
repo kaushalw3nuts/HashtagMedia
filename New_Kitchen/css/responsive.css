@@ -299,7 +299,7 @@
 	.home_header .main_header .logo { width: 70px; height: 70px; }
 	.main_header .navi_wrapper .btnbox { margin: 0; }
 	.main_header .navi_wrapper .btnbox .primary-btn { height: 40px; padding: 0 20px; }
-	.main_header .navi_wrapper .navigation { position: fixed; background: var(--white); left: 0; top: 0; bottom: 0; overflow-y: auto; width: 100%; max-width: 756px; z-index: 5; padding: 90px 20px 30px 20px; transform: translateX(-100%); transition: all ease-in-out 0.3s; border-radius: 0 24px 0 0; box-shadow: 0 0 5px rgba(0, 0, 0, 0.16); }
+	.main_header .navi_wrapper .navigation { position: fixed; background: var(--white); left: 0; top: 0; bottom: 0; overflow-y: auto; width: 100%; max-width: calc(100% - 14px); z-index: 5; padding: 90px 20px 30px 20px; transform: translateX(-100%); transition: all ease-in-out 0.3s; border-radius: 0 24px 0 0; box-shadow: 0 0 5px rgba(0, 0, 0, 0.16); }
 	.main_header .navi_wrapper .navigation.slide { transform: translateX(0); }
 	.main_header .navi_wrapper .navigation { flex-direction: column; align-items: flex-start; }
 	.main_header .navi_wrapper .navigation li + li { margin: 36px 0 0 0; }
@@ -332,6 +332,19 @@
 	.maintain_wrap .maintain_card .block_inner .icon_Wrap { height: 100px; width: 100px; }
 	.maintain_wrap .maintain_card .block_inner .icon_Wrap .icon { max-width: 40px; }
 	.maintain_wrap .maintain_card .block_inner .title { font-size: 24px; }
+
+	.home_kitchen_section .inner_kitchen .right_wrapper_part .row [class^="col-"] + [class^="col-"] { padding: 0 12px !important; }
+	.home_kitchen_section .start_renovation_section { margin: 80px 0; padding: 52px 50px; }
+	
+	.transformation_section { margin-top: 70px; }
+	.transformation_inner .transformation_title_section { margin: 0 auto 40px auto; }
+	.transformation_inner .btnbox { margin-top: 40px; }
+
+	.review_section { margin: 80px 0; }
+	
+	.footer_main .top_footer { padding-bottom: 50px; flex-wrap: wrap; row-gap: 50px; }
+	.top_footer .box_wrapper { width: 50%; }
+	.footer_main .bottom_footer { align-items: flex-start; }
 
 	/*============ Homepage style end ============*/
 
@@ -436,7 +449,7 @@
 	.home_header .main_header .logo { width: 56px; height: 56px; }
 	.main_header .navi_wrapper .btnbox { margin: 0; }
 	.main_header .navi_wrapper .btnbox .primary-btn { height: 40px; padding: 0 20px; font-size: 13px; font-weight: 400; border-radius: 4px; }
-	.main_header .navi_wrapper .navigation { position: fixed; background: var(--white); left: 0; top: 0; bottom: 0; overflow-y: auto; width: 100%; max-width: 376px; z-index: 5; padding: 90px 24px 30px 16px; transform: translateX(-100%); transition: all ease-in-out 0.3s; border-radius: 0 24px 0 0; box-shadow: 0 0 5px rgba(0, 0, 0, 0.16); }
+	.main_header .navi_wrapper .navigation { position: fixed; background: var(--white); left: 0; top: 0; bottom: 0; overflow-y: auto; width: 100%; max-width: calc(100% - 14px); z-index: 5; padding: 90px 24px 30px 16px; transform: translateX(-100%); transition: all ease-in-out 0.3s; border-radius: 0 24px 0 0; box-shadow: 0 0 5px rgba(0, 0, 0, 0.16); }
 	.main_header .navi_wrapper .navigation.slide { transform: translateX(0); }
 	.main_header .navi_wrapper .navigation { flex-direction: column; align-items: flex-start; }
 	.main_header .navi_wrapper .navigation li + li { margin: 36px 0 0 0; }
@@ -464,7 +477,7 @@
 	.home_bnr_wrapper .bnr_text { max-width: 100%; left: 24px; bottom: 24px; }
 	h1 { font-size: 40px; }
 	.home_bnr_wrapper .bnr_text h1 { margin: 0 10px 17px 0;  }
-	.tag_block .tag { border-radius: 0 10px; font-size: 20px; }
+	.home_bnr_wrapper .tag_block .tag { max-width: 100%; padding: 10px 20px; border-radius: 0 10px; font-size: 20px; }
 
 	.maintain_wrap .row { row-gap: 52px; }
 	.maintain_wrap .maintain_card .block_inner { padding: 0 20px; }
@@ -481,6 +494,7 @@
 	.inner_kitchen .right_wrapper_part .person_img .image::after { padding: 35.68% 50%; }
 	.inner_kitchen .right_wrapper_part .row { margin: 0 -8px !important; }
 	.inner_kitchen .right_wrapper_part .row>* { padding: 0 8px !important; }
+	.home_kitchen_section .inner_kitchen .row [class^="col-"] + [class^="col-"] { padding: 0 8px !important; }
 
 	.start_renovation_section { margin: 80px 0; padding: 52px 50px; }
 
@@ -489,6 +503,8 @@
 	.transformation_inner .transformation_title_section p + p { margin-top: 22px; }
 	.transformation_inner .transformation_title_section .report_bolck { justify-content: flex-start; }
 	.transformation_inner .btnbox { margin-top: 36px; justify-content: flex-start; }
+	
+	.review_section { margin: 64px 0 80px 0; }
 
 	.footer_main .top_footer { flex-direction: column; padding-bottom: 32px; border: none; }
 	.top_footer .box_wrapper + .box_wrapper { margin-top: 50px; }
