@@ -5,6 +5,9 @@
 	h2 { font-size: 55px; }
 	h3 { font-size: 37px; }
 	
+	/* ================================================================================= */
+	/* Wrappen Page Start */
+	/* ================================================================================= */
 	.inner_banner_txt_wrap { min-height: 390px; }
 	.wrappen_wrapper { padding: 52px 0 40px; }
 	.tag_block .tag { font-size: 37px; }
@@ -22,7 +25,6 @@
 	
 	.how_we_work_sec { padding: 40px 0; }
 	.how_we_work_sec_title { padding: 0 0 44px 0; }
-	.review_slider .swiper-slide { max-width: 346px; }
 	.inner_kitchen .row + .row { margin-top: 80px !important; }
 
 
@@ -37,6 +39,33 @@
 	.review_slider .review_block .inner_review { padding: 34px 30px 30px 30px; }
 	.review_slider .review_block .inner_review .content .title { font-size: 22px; margin-bottom: 30px; }
 	.review_slider .review_block .inner_review .content { margin-bottom: 52px; }
+	/* ================================================================================= */
+	/* Wrappen Page End */
+	/* ================================================================================= */
+
+	
+	/* ================================================================================= */
+	/* Renovatie Page Start */
+	/* ================================================================================= */
+	.how_we_work_sec_v2 .how_we_work_sec_title { padding-bottom: 50px; }
+	/* ================================================================================= */
+	/* Renovatie Page End */
+	/* ================================================================================= */
+
+
+	/* ================================================================================= */
+	/* Meer dan wrappen Page Start */
+	/* ================================================================================= */
+	.we_offer_wrapper { padding: 20px 0 40px 0; }
+	.we_offer_blk { padding: 80px 0 0 0; }
+	.greenbox { padding: 40px 81px; }
+	.looking_for_blk { padding: 80px 0 0 0; }
+	.offer_form_wrap { padding: 80px 0 0 0; }
+	/* ================================================================================= */
+	/* Meer dan wrappen Page End */
+	/* ================================================================================= */
+
+	
 }
 
 @media (min-width: 1301px) and (max-width: 1399px) {
@@ -44,6 +73,11 @@
 	.container { max-width: 1110px; }
 	h2 { font-size: 55px; }
 	h3 { font-size: 37px; }
+
+	/* ================================================================================= */
+	/* Wrappen Page Start */
+	/* ================================================================================= */
+	
 	
 	.inner_banner_txt_wrap { min-height: 390px; }
 	.wrappen_wrapper { padding: 52px 0 40px; }
@@ -62,7 +96,6 @@
 	
 	.how_we_work_sec { padding: 40px 0; }
 	.how_we_work_sec_title { padding: 0 0 44px 0; }
-	.review_slider .swiper-slide { max-width: 346px; }
 	.inner_kitchen .row + .row { margin-top: 80px !important; }
 
 
@@ -76,7 +109,31 @@
 	.wrappen_wrapper .review_section { padding: 40px 0; }
 	.review_slider .review_block .inner_review { padding: 34px 30px 30px 30px; }
 	.review_slider .review_block .inner_review .content .title { font-size: 22px; margin-bottom: 30px; }
-	.review_slider .review_block .inner_review .content { margin-bottom: 52px; }
+	.review_slider .review_block .inner_review .content { margin-bottom: 52px; }/* ================================================================================= */
+	/* Wrappen Page End */
+	/* ================================================================================= */
+
+	/* ================================================================================= */
+	/* Renovatie Page Start */
+	/* ================================================================================= */
+	.how_we_work_sec_v2 .how_we_work_sec_title { padding-bottom: 50px; }
+	/* ================================================================================= */
+	/* Renovatie Page End */
+	/* ================================================================================= */
+	
+
+	/* ================================================================================= */
+	/* Meer dan wrappen Page Start */
+	/* ================================================================================= */
+	.we_offer_wrapper { padding: 20px 0 40px 0; }
+	.we_offer_blk { padding: 80px 0 0 0; }
+	.we_offer_blk h3 { padding: 0 0 27px 0; }
+	.greenbox { padding: 40px 81px; }
+	.looking_for_blk { padding: 80px 0 0 0; }
+	.offer_form_wrap { padding: 80px 0 0 0; }
+	/* ================================================================================= */
+	/* Meer dan wrappen Page End */
+	/* ================================================================================= */
 }
 
 @media (min-width: 1200px) and (max-width: 1300px) {
@@ -84,6 +141,11 @@
 	.container { max-width: 1110px; }
 	h2 { font-size: 45px; }
 	h3 { font-size: 35px; }
+
+	/* ================================================================================= */
+	/* Wrappen Page Start */
+	/* ================================================================================= */
+	
 	
 	.inner_banner_txt_wrap { min-height: 360px; }
 	.wrappen_wrapper { padding: 52px 0 40px; }
@@ -103,7 +165,6 @@
 	
 	.how_we_work_sec { padding: 40px 0; }
 	.how_we_work_sec_title { padding: 0 0 44px 0; }
-	.review_slider .swiper-slide { max-width: 346px; }
 	.inner_kitchen .row + .row { margin-top: 80px !important; }
 
 	.difference_title_heading i { width: 79px; }
@@ -121,6 +182,31 @@
 	.review_slider .review_block .inner_review { padding: 34px 30px 30px 30px; }
 	.review_slider .review_block .inner_review .content .title { font-size: 22px; margin-bottom: 30px; }
 	.review_slider .review_block .inner_review .content { margin-bottom: 52px; }
+	/* ================================================================================= */
+	/* Wrappen Page End */
+	/* ================================================================================= */
+
+	/* ================================================================================= */
+	/* Renovatie Page Start */
+	/* ================================================================================= */
+	.how_we_work_sec_v2 .how_we_work_sec_title { padding-bottom: 44px; }
+	/* ================================================================================= */
+	/* Renovatie Page End */
+	/* ================================================================================= */
+	
+
+	/* ================================================================================= */
+	/* Meer dan wrappen Page Start */
+	/* ================================================================================= */
+	.we_offer_wrapper { padding: 20px 0 40px 0; }
+	.we_offer_blk { padding: 80px 0 0 0; }
+	.we_offer_blk h3 { padding: 0 0 27px 0; }
+	.greenbox { padding: 40px 81px; }
+	.looking_for_blk { padding: 80px 0 0 0; }
+	.offer_form_wrap { padding: 80px 0 0 0; }
+	/* ================================================================================= */
+	/* Meer dan wrappen Page End */
+	/* ================================================================================= */
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -129,8 +215,12 @@
 	h2 { font-size: 45px; }
 	h3 { font-size: 35px; }
 	
+	/* ================================================================================= */
+	/* Wrappen Page Start */
+	/* ================================================================================= */
+	
 	.inner_banner_txt_wrap { min-height: 300px; }
-	.wrappen_wrapper { padding: 52px 0 40px; }
+	.wrappen_wrapper { padding: 40px 0 40px; }
 	.tag_block .tag { font-size: 28px; padding: 0 15px; }
 	.inner_banner_txt_inner { padding: 52px 0; }
 
@@ -152,7 +242,6 @@
 	
 	.how_we_work_sec { padding: 40px 0; }
 	.how_we_work_sec_title { padding: 0 0 30px 0; }
-	.review_slider .swiper-slide { max-width: 346px; }
 	.inner_kitchen .row + .row { margin-top: 60px !important; }
 
 	.difference_title_heading i { width: 79px; }
@@ -168,9 +257,37 @@
 
 
 	.wrappen_wrapper .review_section { padding: 40px 0; }
-	.review_slider .review_block .inner_review { padding: 34px 30px 30px 30px; }
-	.review_slider .review_block .inner_review .content .title { font-size: 22px; margin-bottom: 30px; }
-	.review_slider .review_block .inner_review .content { margin-bottom: 52px; }
+	.review_slider .review_block .inner_review { padding: 20px 20px 20px 20px; }
+	.review_slider .review_block .inner_review .content .title { font-size: 20px; margin-bottom: 20px; }
+	.review_slider .review_block .inner_review .content { margin-bottom: 32px; }
+	/* ================================================================================= */
+	/* Wrappen Page End */
+	/* ================================================================================= */
+
+	/* ================================================================================= */
+	/* Renovatie Page Start */
+	/* ================================================================================= */
+	.how_we_work_sec_v2 .how_we_work_sec_title { padding-bottom: 74px; }
+	.how_we_work_sec_v2 .inner_kitchen .row + .row { margin-top: 61px !important; }
+	.how_we_work_sec_v2 .row > [class="col-lg-5"] { width: 41.66666667%; }
+	.how_we_work_sec_v2 .row > [class="col-lg-7"] { width: 58.33333333%; }
+	/* ================================================================================= */
+	/* Renovatie Page End */
+	/* ================================================================================= */
+	
+
+	/* ================================================================================= */
+	/* Meer dan wrappen Page Start */
+	/* ================================================================================= */
+	.we_offer_wrapper { padding: 20px 0 40px 0; }
+	.we_offer_blk { padding: 80px 0 0 0; }
+	.we_offer_blk h3 { padding: 0 0 27px 0; }
+	.greenbox { padding: 40px 61px; }
+	.looking_for_blk { padding: 80px 0 0 0; }
+	.offer_form_wrap { padding: 80px 0 0 0; }
+	/* ================================================================================= */
+	/* Meer dan wrappen Page End */
+	/* ================================================================================= */
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -217,6 +334,96 @@
 	.maintain_wrap .maintain_card .block_inner .title { font-size: 24px; }
 
 	/*============ Homepage style end ============*/
+
+	/* ================================================================================= */
+	/* Wrappen Page Start */
+	/* ================================================================================= */
+	
+	.inner_banner .container-fluid { max-width: 760px; }
+	.container { max-width: 680px; }
+	h2 { font-size: 40px; }
+	h3 { font-size: 32px; }
+	
+	.inner_banner_txt_wrap { min-height: 300px; }
+	.wrappen_wrapper { padding: 30px 0 30px; }
+	.tag_block .tag { font-size: 28px; padding: 0 15px; }
+	.inner_banner_txt_inner { padding: 52px 0; }
+
+	.after_banner_sec { padding: 40px 0; }
+	.after_banner_inner h2 { padding: 0 0 24px 0; }
+
+	.listing_keuken { padding: 35px 0 0 0; }
+	.keuken_box { padding: 22px 32px 22px 22px; }
+	.keuken_box .keuken_icon { width: 80px; }
+	.keuken_box .keuken_icon i { height: 80px; }
+	.keuken_box .keuken_icon i img { max-width: 32px; max-height: 34px; }
+	.keuken_box .keuken_dtl { padding: 0 0 0 22px; width: calc(100% - 80px); }
+	.keuken_box .keuken_dtl h5 { font-size: 22px; }
+
+	.kitchen_blk_title .kitchen_blk_number { width: 63px;height: 45px; padding: 0 12px 0 12px; font-size: 21px; margin-right: 15px; }
+	.kitchen_blk_title .heading_kitchen_blk { width: calc(100% - 63px - 15px); }
+	.kitchen_blk_title { padding: 0 0 18px 0; }
+	.inner_kitchen .left_part { max-width: 100%; }
+	.inner_kitchen .right_part { width: 60%; }
+	.inner_kitchen .row [class^="col-"] + [class^="col-"] { padding-top: 40px !important; }
+	
+	.how_we_work_sec { padding: 40px 0; }
+	.how_we_work_sec_title { padding: 0 0 30px 0; }
+	.inner_kitchen .row + .row { margin-top: 60px !important; }
+
+	.difference_title_heading { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+	.difference_title_heading i { width: 79px; margin: 0 0 15px 0; }
+	.difference_title_heading h2 { font-size: 32px; }
+	.difference_sec { padding: 40px 0; }
+	.difference_slider_wrp { max-width: 600px; }
+	.difference_blk .slider-button { width: 40px; height: 40px; left: calc(50% - 20px); top: calc(50% - 20px); }
+	.difference_blk .img { background-size: 600px 100%; }
+	.swiper_difference_btn a { width: 35px; }
+	.filling_tag { top: 20px; }
+	.filling_tag.filling_yes { left: 20px; }
+	.filling_tag.filling_no { right: 20px; }
+
+	.start_renovation_section { padding: 55px 0; }
+	.start_renovation_secmain { padding: 40px 0; }
+
+
+	.review_inner_section h3 { margin-bottom: 30px; }
+	.review_inner_section .btnbox { margin-top: 30px; }
+	.review_slider .swiper-wrapper { width: 100%; margin: 0; -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+	.review_slider .swiper-slide { padding: 0; }
+	.wrappen_wrapper .review_section { padding: 40px 0; }
+	.review_slider .review_block .inner_review { padding: 20px 20px 20px 20px; }
+	.review_slider .review_block .inner_review .content .title { font-size: 20px; margin-bottom: 20px; }
+	.review_slider .review_block .inner_review .content { margin-bottom: 32px; }
+	/* ================================================================================= */
+	/* Wrappen Page End */
+	/* ================================================================================= */
+
+	/* ================================================================================= */
+	/* Renovatie Page Start */
+	/* ================================================================================= */
+	.how_we_work_sec_v2 .how_we_work_sec_title { padding-bottom: 70px; }
+	
+	.how_we_work_sec_v2 .inner_kitchen .row + .row { margin-top: 61px !important; }
+	.how_we_work_sec_v2 .row > [class="col-lg-5"] { width: 100%; }
+	.how_we_work_sec_v2 .row > [class="col-lg-7"] { width: 100%; }
+	/* ================================================================================= */
+	/* Renovatie Page End */
+	/* ================================================================================= */
+	
+
+	/* ================================================================================= */
+	/* Meer dan wrappen Page Start */
+	/* ================================================================================= */
+	.we_offer_wrapper { padding: 20px 0 40px 0; }
+	.we_offer_blk { padding: 80px 0 0 0; }
+	.we_offer_blk h3 { padding: 0 0 27px 0; }
+	.greenbox { padding: 40px 61px; }
+	.looking_for_blk { padding: 80px 0 0 0; }
+	.offer_form_wrap { padding: 80px 0 0 0; }
+	/* ================================================================================= */
+	/* Meer dan wrappen Page End */
+	/* ================================================================================= */
 }
 
 @media (max-width: 767px) {
@@ -292,4 +499,107 @@
 	.footer_main .bottom_footer .copy_privacy .copy + a::after { display: none; }
 
 	/*============ Homepage style end ============*/
+
+	.inner_banner .container-fluid { max-width: 760px; }
+	.container { max-width: 680px; }
+	h2 { font-size: 34px; }
+	h3 { font-size: 28px; }
+	
+	/* ================================================================================= */
+	/* Wrappen Page Start */
+	/* ================================================================================= */
+	
+	.inner_banner_txt_wrap { min-height: 256px; }
+	.inner_banner_txt_wrap .container { padding: 0 24px; }
+	.wrappen_wrapper { padding: 9px 0 40px; }
+	.tag_block .tag { font-size: 20px; padding: 0 15px; }
+	.inner_banner_txt_inner .tag_block .tag { padding: 11px 20px; }
+	.tag_block .tag { max-width: 240px; line-height: 1.4; }
+	.inner_banner_txt_inner { padding: 24px 0; }
+
+	.after_banner_sec { padding: 40px 0; }
+	.after_banner_inner h2 { padding: 0 0 24px 0; }
+
+	.listing_keuken { padding: 56px 0 0 0; }
+	.keuken_box { padding: 32px 31px 34px; -ms-flex-wrap: wrap; flex-wrap: wrap; justify-content: center; text-align: center; }
+	.keuken_box .keuken_icon i img { max-width: 32px; max-height: 34px; }
+	.keuken_box .keuken_dtl { padding: 27px 0 0 0; width: 100%; }
+	.keuken_box .keuken_dtl h5 { font-size: 22px; padding: 0 0 17px 0; }
+
+	.kitchen_blk_title .kitchen_blk_number { height: 53px; padding: 0 12px 0 12px; font-size: 26px; margin: 0 0 18px 0; }
+	.kitchen_blk_title .heading_kitchen_blk { width: 100%; }
+	.kitchen_blk_title .heading_kitchen_blk h5 { font-size: 22px; }
+	.kitchen_blk_title { padding: 0 0 25px 0; }
+	.inner_kitchen .left_part { max-width: 100%; }
+	.inner_kitchen .right_part { width: 100%; }
+	.inner_kitchen .right_part::after { padding: 37.102% 50%; }
+	.inner_kitchen .row [class^="col-"] + [class^="col-"] { padding-top: 34px !important; }
+	.inner_kitchen .row + .row { margin-top: 64px !important; }
+	
+	.how_we_work_sec { padding: 40px 0; }
+	.how_we_work_sec_title { padding: 0 0 28px 0; max-width: 100%; }
+
+	.difference_title_heading { -ms-flex-wrap: wrap; flex-wrap: wrap; margin-bottom: 25px; }
+	.difference_title_heading i { width: 69px; margin: 0 0 21px 0; }
+	.difference_title { text-align: left; padding-bottom: 30px; }
+	.difference_title_heading h2 { font-size: 28px; }
+	.difference_sec { padding: 40px 0; }
+	.difference_slider_wrp { max-width: 358px; }
+	.difference_blk .slider-button { width: 38px; height: 38px; left: calc(50% - 19px); top: calc(50% - 19px); }
+	.difference_blk .img { background-size: 358px 100%; }
+	.difference_blk:after { padding: 48.045% 50%; }
+	.swiper_difference_btn a { width: 35px; }
+	.filling_tag { top: 24px; font-size: 13px; padding: 6px 12px; }
+	.filling_tag.filling_yes { left: 24px; }
+	.filling_tag.filling_no { right: 24px; }
+
+	.start_renovation_section { padding: 52px 45px 69px; }
+	.start_renovation_secmain { padding: 40px 0; }
+
+
+	.review_inner_section h3 { margin-bottom: 25px; }
+	.review_inner_section .btnbox { margin-top: 30px; justify-content: flex-start; margin-top: 25px; }
+	.review_slider .swiper-wrapper { width: 100%; margin: 0; -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+	.review_slider .swiper-slide { padding: 0; }
+	.wrappen_wrapper .review_section { padding: 40px 0; }
+	.review_slider .review_block .inner_review { padding: 44px 40px 40px 40px; }
+	/* .review_slider .review_block .inner_review .content .title { font-size: 20px; margin-bottom: 20px; } */
+	.review_slider .review_block .inner_review .content { margin-bottom: 40px; }
+	.review_slider.swiper { max-width: 320px; overflow: visible; margin-left: 0; }
+	/* ================================================================================= */
+	/* Wrappen Page End */
+	/* ================================================================================= */
+
+	/* ================================================================================= */
+	/* Renovatie Page Start */
+	/* ================================================================================= */
+	.renovate_wrapper { padding-top: 11px; }
+	.how_we_work_sec_v2 .how_we_work_sec_title { padding-bottom: 64px; }
+	
+	.how_we_work_sec_v2 .inner_kitchen .row + .row { margin-top: 64px !important; }
+	.how_we_work_sec_v2 .row > [class="col-lg-5"] { width: 100%; }
+	.how_we_work_sec_v2 .row > [class="col-lg-7"] { width: 100%; }
+	.how_we_work_sec_v2 .inner_kitchen .right_part::after { padding: 37.102% 50%; }
+	.how_we_work_sec_v2 .kitchen_blk_title { padding-bottom: 25px; }
+	.renovate_wrapper .review_section { padding: 40px 0; }
+	/* ================================================================================= */
+	/* Renovatie Page End */
+	/* ================================================================================= */
+	
+
+	/* ================================================================================= */
+	/* Meer dan wrappen Page Start */
+	/* ================================================================================= */
+	.we_offer_wrapper { padding: 23px 0 40px 0; }
+	.we_offer_blk { padding: 80px 0 0 0; }
+	.we_offer_blk h3 { padding: 0 0 25px 0; }
+	.greenbox { padding: 40px 40px; }
+	.looking_for_blk { padding: 80px 0 0 0; }
+	.looking_for_blk h3 { padding: 0 0 25px 0; }
+	.offer_form_wrap { padding: 82px 0 0 0; }
+	.offer_form_wrap h3 { padding: 0 0 25px 0; }
+	.offer_form_wrap > p br { display: none; }
+	/* ================================================================================= */
+	/* Meer dan wrappen Page End */
+	/* ================================================================================= */
 }

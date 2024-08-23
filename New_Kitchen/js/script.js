@@ -9,7 +9,7 @@ jQuery(document).ready(function(){
 		e.preventDefault();
 	}); 
 	
-	if ((jQuery(window).width() < 991) && (jQuery('.review_slider').length > 0)) {
+	if ((jQuery(window).width() < 992) && (jQuery('.review_slider').length > 0)) {
 		
 		new Swiper(".review_slider", {
 			breakpoints: {
@@ -21,7 +21,7 @@ jQuery(document).ready(function(){
 		});
 	}
 
-	if ((jQuery(window).width() < 991) && (jQuery('.customer_slider').length > 0)) {
+	if ((jQuery(window).width() < 992) && (jQuery('.customer_slider').length > 0)) {
 		
 		new Swiper(".customer_slider", {
 			breakpoints: {
