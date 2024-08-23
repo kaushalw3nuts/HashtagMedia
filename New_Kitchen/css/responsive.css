@@ -1,11 +1,177 @@
 
-@media (min-width: 1400px) and (max-width: 1600px) {}
+@media (min-width: 1400px) and (max-width: 1500px) {
+	.inner_banner .container-fluid { max-width: 1300px; }
+	.container { max-width: 1110px; }
+	h2 { font-size: 55px; }
+	h3 { font-size: 37px; }
+	
+	.inner_banner_txt_wrap { min-height: 390px; }
+	.wrappen_wrapper { padding: 52px 0 40px; }
+	.tag_block .tag { font-size: 37px; }
+	.inner_banner_txt_inner { padding: 52px 0; }
 
-@media (min-width: 1301px) and (max-width: 1399px) {}
+	.after_banner_sec { padding: 40px 0; }
+	.after_banner_inner h2 { padding: 0 0 24px 0; }
 
-@media (min-width: 1200px) and (max-width: 1300px) {}
+	.listing_keuken { padding: 55px 0 0 0; }
+	.keuken_box { padding: 22px 32px 22px 22px; }
+	.keuken_box .keuken_icon { width: 80px; }
+	.keuken_box .keuken_icon i { height: 80px; }
+	.keuken_box .keuken_icon i img { max-width: 32px; max-height: 34px; }
+	.keuken_box .keuken_dtl { padding: 0 0 0 22px; width: calc(100% - 80px); }
+	
+	.how_we_work_sec { padding: 40px 0; }
+	.how_we_work_sec_title { padding: 0 0 44px 0; }
+	.review_slider .swiper-slide { max-width: 346px; }
+	.inner_kitchen .row + .row { margin-top: 80px !important; }
 
-@media (min-width: 992px) and (max-width: 1199px) {}
+
+	.difference_title_heading h2 { font-size: 37px; }
+	.difference_sec { padding: 40px 0; }
+
+	
+	.start_renovation_secmain { padding: 40px 0; }
+
+
+	.wrappen_wrapper .review_section { padding: 40px 0; }
+	.review_slider .review_block .inner_review { padding: 34px 30px 30px 30px; }
+	.review_slider .review_block .inner_review .content .title { font-size: 22px; margin-bottom: 30px; }
+	.review_slider .review_block .inner_review .content { margin-bottom: 52px; }
+}
+
+@media (min-width: 1301px) and (max-width: 1399px) {
+	.inner_banner .container-fluid { max-width: 1300px; }
+	.container { max-width: 1110px; }
+	h2 { font-size: 55px; }
+	h3 { font-size: 37px; }
+	
+	.inner_banner_txt_wrap { min-height: 390px; }
+	.wrappen_wrapper { padding: 52px 0 40px; }
+	.tag_block .tag { font-size: 37px; }
+	.inner_banner_txt_inner { padding: 52px 0; }
+
+	.after_banner_sec { padding: 40px 0; }
+	.after_banner_inner h2 { padding: 0 0 24px 0; }
+
+	.listing_keuken { padding: 55px 0 0 0; }
+	.keuken_box { padding: 22px 32px 22px 22px; }
+	.keuken_box .keuken_icon { width: 80px; }
+	.keuken_box .keuken_icon i { height: 80px; }
+	.keuken_box .keuken_icon i img { max-width: 32px; max-height: 34px; }
+	.keuken_box .keuken_dtl { padding: 0 0 0 22px; width: calc(100% - 80px); }
+	
+	.how_we_work_sec { padding: 40px 0; }
+	.how_we_work_sec_title { padding: 0 0 44px 0; }
+	.review_slider .swiper-slide { max-width: 346px; }
+	.inner_kitchen .row + .row { margin-top: 80px !important; }
+
+
+	.difference_title_heading h2 { font-size: 37px; }
+	.difference_sec { padding: 40px 0; }
+
+	
+	.start_renovation_secmain { padding: 40px 0; }
+
+
+	.wrappen_wrapper .review_section { padding: 40px 0; }
+	.review_slider .review_block .inner_review { padding: 34px 30px 30px 30px; }
+	.review_slider .review_block .inner_review .content .title { font-size: 22px; margin-bottom: 30px; }
+	.review_slider .review_block .inner_review .content { margin-bottom: 52px; }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+	.inner_banner .container-fluid { max-width: 1280px; }
+	.container { max-width: 1110px; }
+	h2 { font-size: 45px; }
+	h3 { font-size: 35px; }
+	
+	.inner_banner_txt_wrap { min-height: 360px; }
+	.wrappen_wrapper { padding: 52px 0 40px; }
+	.tag_block .tag { font-size: 33px; }
+	.inner_banner_txt_inner { padding: 52px 0; }
+
+	.after_banner_sec { padding: 40px 0; }
+	.after_banner_inner h2 { padding: 0 0 24px 0; }
+
+	.listing_keuken { padding: 55px 0 0 0; }
+	.keuken_box { padding: 22px 32px 22px 22px; }
+	.keuken_box .keuken_icon { width: 80px; }
+	.keuken_box .keuken_icon i { height: 80px; }
+	.keuken_box .keuken_icon i img { max-width: 32px; max-height: 34px; }
+	.keuken_box .keuken_dtl { padding: 0 0 0 22px; width: calc(100% - 80px); }
+	.keuken_box .keuken_dtl h5 { font-size: 24px; }
+	
+	.how_we_work_sec { padding: 40px 0; }
+	.how_we_work_sec_title { padding: 0 0 44px 0; }
+	.review_slider .swiper-slide { max-width: 346px; }
+	.inner_kitchen .row + .row { margin-top: 80px !important; }
+
+	.difference_title_heading i { width: 79px; }
+	.difference_title_heading h2 { font-size: 35px; }
+	.difference_sec { padding: 40px 0; }
+	.difference_slider_wrp { max-width: 850px; }
+	.difference_blk .img { background-size: 850px 100%; }
+	.swiper_difference_btn a { width: 35px; }
+
+	.start_renovation_section { padding: 55px 0; }
+	.start_renovation_secmain { padding: 40px 0; }
+
+
+	.wrappen_wrapper .review_section { padding: 40px 0; }
+	.review_slider .review_block .inner_review { padding: 34px 30px 30px 30px; }
+	.review_slider .review_block .inner_review .content .title { font-size: 22px; margin-bottom: 30px; }
+	.review_slider .review_block .inner_review .content { margin-bottom: 52px; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.inner_banner .container-fluid { max-width: 980px; }
+	.container { max-width: 900px; }
+	h2 { font-size: 45px; }
+	h3 { font-size: 35px; }
+	
+	.inner_banner_txt_wrap { min-height: 300px; }
+	.wrappen_wrapper { padding: 52px 0 40px; }
+	.tag_block .tag { font-size: 28px; padding: 0 15px; }
+	.inner_banner_txt_inner { padding: 52px 0; }
+
+	.after_banner_sec { padding: 40px 0; }
+	.after_banner_inner h2 { padding: 0 0 24px 0; }
+
+	.listing_keuken { padding: 35px 0 0 0; }
+	.keuken_box { padding: 22px 32px 22px 22px; }
+	.keuken_box .keuken_icon { width: 80px; }
+	.keuken_box .keuken_icon i { height: 80px; }
+	.keuken_box .keuken_icon i img { max-width: 32px; max-height: 34px; }
+	.keuken_box .keuken_dtl { padding: 0 0 0 22px; width: calc(100% - 80px); }
+	.keuken_box .keuken_dtl h5 { font-size: 22px; }
+
+	.kitchen_blk_title .kitchen_blk_number { width: 63px;height: 45px; padding: 0 12px 0 12px; font-size: 21px; margin-right: 15px; }
+	.kitchen_blk_title .heading_kitchen_blk { width: calc(100% - 63px - 15px); }
+	.kitchen_blk_title { padding: 0 0 18px 0; }
+	.inner_kitchen .left_part { max-width: 456px; }
+	
+	.how_we_work_sec { padding: 40px 0; }
+	.how_we_work_sec_title { padding: 0 0 30px 0; }
+	.review_slider .swiper-slide { max-width: 346px; }
+	.inner_kitchen .row + .row { margin-top: 60px !important; }
+
+	.difference_title_heading i { width: 79px; }
+	.difference_title_heading h2 { font-size: 35px; }
+	.difference_sec { padding: 40px 0; }
+	.difference_slider_wrp { max-width: 790px; }
+	.difference_blk .slider-button { width: 40px; height: 40px; left: calc(50% - 20px); top: calc(50% - 20px); }
+	.difference_blk .img { background-size: 790px 100%; }
+	.swiper_difference_btn a { width: 35px; }
+
+	.start_renovation_section { padding: 55px 0; }
+	.start_renovation_secmain { padding: 40px 0; }
+
+
+	.wrappen_wrapper .review_section { padding: 40px 0; }
+	.review_slider .review_block .inner_review { padding: 34px 30px 30px 30px; }
+	.review_slider .review_block .inner_review .content .title { font-size: 22px; margin-bottom: 30px; }
+	.review_slider .review_block .inner_review .content { margin-bottom: 52px; }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {}
 
