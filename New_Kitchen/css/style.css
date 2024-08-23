@@ -333,9 +333,8 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 .review_section { display: block; position: relative; margin: 120px 0; }
 .review_inner_section { position: relative; display: block; }
 .review_inner_section h3 { text-align: center; margin-bottom: 40px; }
-.review_slider .swiper-wrapper { flex-wrap: wrap; }
-.review_slider .swiper-slide { max-width: 384px; height: auto; }
-.review_slider .swiper-slide + .swiper-slide { margin-left: 20px; }
+.review_slider .swiper-wrapper { flex-wrap: wrap; margin: 0 -10px; row-gap: 20px; }
+.review_slider .swiper-slide { width: 33.333333%; padding: 0 10px; height: auto; }
 .review_slider .review_block { transition: all 0.3s ease-in-out; background: var(--lightwhite); border-radius: 24px; border: 1px solid var(--lightwhite); position: relative; width: 100%; height: 100%; display: flex; align-items: flex-start; justify-content: center; }
 .review_slider .review_block:hover { border-color: var(--pink); }
 .review_slider .review_block .inner_review { position: relative; width: 100%; padding: 44px 40px 40px 40px; height: 100%; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; }
@@ -438,6 +437,28 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 .klantervaringen-renovation .btnbox .primary-btn { width: 100%; }
 
 /*============ Klantervaringen style end ============*/
+
+/*============ Onze werkwijze style start ============*/
+
+.onze_werkwijze_wrapper .after_banner_sec { padding: 80px 0 40px 0; }
+.onze_werkwijze_wrapper .home_kitchen_inner_section { padding: 40px 0; }
+.onze_werkwijze_wrapper .inner_kitchen .row + .row { margin-top: 80px !important; }
+.onze_inner_section { padding: 80px 0 40px 0; }
+.onze_inner_section h3 { color: var(--black200); margin-bottom: 58px; }
+.plan_box .kitchen_blk_title .heading_kitchen_blk h5 { color: var(--black200); }
+.plan_box + .plan_box { margin-top: 40px; }
+.onze_werkwijze_inner_wrapper { padding: 40px 0 120px 0; }
+.onze_werkwijze_inner_wrapper .start_renovation_section { margin: 0; }
+
+/*============ Onze werkwijze style end ============*/
+
+/*============ Onze vernieuwers style start ============*/
+
+.onze_vernieuwers_wrapper .after_banner_sec { padding: 80px 0 40px 0; }
+.onze_vernieuwers_inner_wrapper { padding: 40px 0 120px 0; }
+.onze_vernieuwers_inner_wrapper .start_renovation_section { margin: 0; }
+
+/*============ Onze vernieuwers style end ============*/
 
 /* Wrappen Page Start */
 /* Inner Banner Start */
