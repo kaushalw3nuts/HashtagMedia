@@ -227,7 +227,7 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 
 .header { display: block; position: relative; z-index: 999; width: 100%; }
 .header .container { max-width: 1230px; }
-.home_header .main_header { margin: 16px auto 0 auto; display: flex; align-items: flex-start; justify-content: space-between; }
+.home_header .main_header { margin: 16px 0 0 0; display: flex; align-items: flex-start; justify-content: space-between; }
 .main_header { margin: 16px auto; display: flex; align-items: center; justify-content: space-between; }
 .home_header .main_header .logo { display: flex; width: 158px; height: 158px; }
 .main_header .logo { display: flex; width: 96px; height: 96px; }
