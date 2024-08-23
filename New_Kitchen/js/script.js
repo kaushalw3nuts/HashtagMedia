@@ -1,6 +1,13 @@
 "use strict";
 
 jQuery(document).ready(function(){
+
+	jQuery(".navi_wrapper .menu-btn").click(function(e){
+		jQuery(this).toggleClass("active");
+		jQuery(".navigation").toggleClass("slide");
+		jQuery("body").toggleClass("open-nav");
+		e.preventDefault();
+	}); 
 	
 	if ((jQuery(window).width() < 992) && (jQuery('.review_slider').length > 0)) {
 		
