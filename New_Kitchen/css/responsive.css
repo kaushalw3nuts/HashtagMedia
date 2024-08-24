@@ -1,5 +1,31 @@
 
 @media (min-width: 1400px) and (max-width: 1500px) {
+
+	/*============ Homepage style start ============*/
+
+	.home_header .main_header .logo { height: 140px; width: 140px; }
+	
+	.home_banner { margin: -36px 0 0 0; }
+	.home_bnr_wrapper .bnr_text { left: 100px; max-width: 740px; }
+	h1 { font-size: 100px; }
+	.home_bnr_wrapper .rate_section { right: 140px; }
+	
+	.maintain_wrap .maintain_card .block_inner { padding: 40px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap { height: 100px; width: 100px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap .icon { max-width: 40px; }
+	.maintain_wrap .maintain_card .block_inner .title { font-size: 24px; }
+	
+	.start_renovation_section { margin: 100px 0; }
+	
+	.transformation_section { margin: 100px 0 0 0; }
+	.transformation_section .container { max-width: 1110px; }
+
+	.review_section { margin: 100px 0; }
+
+	.footer_main .top_footer { padding-bottom: 100px; }
+
+	/*============ Homepage style end ============*/
+
 	.inner_banner .container-fluid { max-width: 1300px; }
 	.container { max-width: 1110px; }
 	h2 { font-size: 55px; }
@@ -69,6 +95,33 @@
 }
 
 @media (min-width: 1301px) and (max-width: 1399px) {
+
+	/*============ Homepage style start ============*/
+
+	.home_header .main_header .logo { height: 140px; width: 140px; }
+	.main_header .logo { height: 90px; width: 90px; }
+	
+	.home_banner { margin: -36px 0 0 0; }
+	.home_bnr_wrapper .bnr_text { left: 100px; max-width: 720px; }
+	h1 { font-size: 100px; }
+	.home_bnr_wrapper .rate_section { right: 100px; }
+	
+	.maintain_wrap .maintain_card .block_inner { padding: 40px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap { height: 100px; width: 100px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap .icon { max-width: 40px; }
+	.maintain_wrap .maintain_card .block_inner .title { font-size: 24px; }
+	
+	.start_renovation_section { margin: 100px 0; }
+	
+	.transformation_section { margin: 100px 0 0 0; }
+	.transformation_section .container { max-width: 1110px; }
+
+	.review_section { margin: 100px 0; }
+
+	.footer_main .top_footer { padding-bottom: 100px; }
+
+	/*============ Homepage style end ============*/
+
 	.inner_banner .container-fluid { max-width: 1300px; }
 	.container { max-width: 1110px; }
 	h2 { font-size: 55px; }
@@ -137,6 +190,33 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1300px) {
+
+	/*============ Homepage style start ============*/
+
+	.home_header .main_header .logo { height: 130px; width: 130px; }
+	.main_header .logo { height: 80px; width: 80px; }
+	
+	.home_banner { margin: -32px 0 0 0; }
+	.home_bnr_wrapper .bnr_text { bottom: 60px; left: 90px; max-width: 700px; }
+	h1 { font-size: 90px; }
+	.home_bnr_wrapper .rate_section { right: 80px; }
+	
+	.maintain_wrap .maintain_card .block_inner { padding: 30px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap { height: 90px; width: 90px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap .icon { max-width: 40px; }
+	.maintain_wrap .maintain_card .block_inner .title { font-size: 24px; }
+	
+	.start_renovation_section { margin: 90px 0; }
+	
+	.transformation_section { margin: 90px 0 0 0; }
+	.transformation_section .container { max-width: 1110px; }
+
+	.review_section { margin: 90px 0; }
+
+	.footer_main .top_footer { padding-bottom: 90px; }
+
+	/*============ Homepage style end ============*/
+
 	.inner_banner .container-fluid { max-width: 1280px; }
 	.container { max-width: 1110px; }
 	h2 { font-size: 45px; }
@@ -210,6 +290,37 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
+	/*============ Homepage style start ============*/
+
+	.home_header .main_header .logo { height: 110px; width: 110px; }
+	.main_header .navi_wrapper .navigation li + li { margin-left: 26px; }
+	.main_header .navi_wrapper .btnbox { margin-left: 26px; }
+	.primary-btn { height: 44px; }
+	.main_header .logo { height: 80px; width: 80px; }
+
+	.home_banner { margin: -24px 0 0 0; }
+	.home_bnr_wrapper .bnr_text { bottom: 50px; left: 80px; max-width: 660px; }
+	h1 { font-size: 80px; }
+	.home_bnr_wrapper .rate_section { top: 60px; right: 60px; }
+
+	.maintain_wrap .maintain_card .block_inner { padding: 20px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap { height: 80px; width: 80px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap .icon { max-width: 40px; }
+	.maintain_wrap .maintain_card .block_inner .title { font-size: 20px; margin-top: 18px; }
+	.maintain_wrap .maintain_card .block_inner p { margin-top: 18px; font-size: 14px; }
+
+	.start_renovation_section { margin: 80px 0; }
+
+	.transformation_section { margin: 80px 0 0 0; }
+	.transformation_section .container { max-width: 900px; }
+
+	.review_section { margin: 80px 0; }
+
+	.footer_main .top_footer { padding-bottom: 80px; }
+
+	/*============ Homepage style end ============*/
+
 	.inner_banner .container-fluid { max-width: 980px; }
 	.container { max-width: 900px; }
 	h2 { font-size: 45px; }
@@ -295,7 +406,7 @@
 	/*============ Homepage style start ============*/
 
 	.home_header .main_header { margin: 16px 0; align-items: center; }
-	.main_header .navi_wrapper { margin: 0; }
+	.home_header .main_header .navi_wrapper { margin: 0; }
 	.home_header .main_header .logo { width: 70px; height: 70px; }
 	.main_header .navi_wrapper .btnbox { margin: 0; }
 	.main_header .navi_wrapper .btnbox .primary-btn { height: 40px; padding: 0 20px; }
@@ -304,6 +415,7 @@
 	.main_header .navi_wrapper .navigation { flex-direction: column; align-items: flex-start; }
 	.main_header .navi_wrapper .navigation li + li { margin: 36px 0 0 0; }
 	.main_header .navi_wrapper .navigation li a { font-size: 16px; font-weight: 600; }
+	.main_header .logo { height: 70px; width: 70px; }
 
 	.menu-btn { position: relative; display: flex; align-items: center; width: 22px; height: 16px; margin: 0 22px 0 34px; z-index: 111; }
 	.menu-btn span { display: block; width: 100%; height: 2px; position: relative; background: var(--green100); border-radius: 2px; }
@@ -347,6 +459,19 @@
 	.footer_main .bottom_footer { align-items: flex-start; }
 
 	/*============ Homepage style end ============*/
+
+	/*============ Klantervaringen style start ============*/
+	
+	.experience_listing { padding: 60px 0 0 0; }
+	.customer_experience { padding: 44px 50px 40px 40px; overflow: hidden; }
+	.customer_slider { overflow: visible; }
+	.customer_slider .swiper-slide { max-width: 100%; }
+	.customer_slider .customer_img::after { padding: 30% 50%; }
+	.customer_slider .swiper-wrapper { flex-wrap: nowrap; }
+	.customer_slider .swiper-slide + .swiper-slide { margin: 0; }
+	.start_renovation_section { margin: 80px 0; }
+
+	/*============ Klantervaringen style end ============*/
 
 	/* ================================================================================= */
 	/* Wrappen Page Start */
@@ -445,7 +570,7 @@
 
 	.home_header .main_header { margin: 16px 0; align-items: center; }
 	.container { padding: 0 16px; }
-	.main_header .navi_wrapper { margin: 0; }
+	.home_header .main_header .navi_wrapper { margin: 0; }
 	.home_header .main_header .logo { width: 56px; height: 56px; }
 	.main_header .navi_wrapper .btnbox { margin: 0; }
 	.main_header .navi_wrapper .btnbox .primary-btn { height: 40px; padding: 0 20px; font-size: 13px; font-weight: 400; border-radius: 4px; }
@@ -454,6 +579,7 @@
 	.main_header .navi_wrapper .navigation { flex-direction: column; align-items: flex-start; }
 	.main_header .navi_wrapper .navigation li + li { margin: 36px 0 0 0; }
 	.main_header .navi_wrapper .navigation li a { font-size: 16px; font-weight: 600; }
+	.main_header .logo { height: 56px; width: 56px; }
 
 	.menu-btn { position: relative; display: flex; align-items: center; width: 22px; height: 16px; margin: 0 22px 0 34px; z-index: 111; }
 	.menu-btn span { display: block; width: 100%; height: 2px; position: relative; background: var(--green100); border-radius: 2px; }
@@ -515,6 +641,19 @@
 	.footer_main .bottom_footer .copy_privacy .copy + a::after { display: none; }
 
 	/*============ Homepage style end ============*/
+
+	/*============ Klantervaringen style start ============*/
+
+	.klantervaringen_wrapper { padding: 10px 0 40px 0; }
+	
+	.experience_listing { padding: 56px 0 0 0; }
+	.customer_experience { padding: 44px 40px 40px 40px; overflow: hidden; }
+	.customer_slider { overflow: visible; }
+	.customer_slider .swiper-slide { max-width: 100%; }
+	.customer_slider .swiper-wrapper { flex-wrap: nowrap; }
+	.customer_slider .swiper-slide + .swiper-slide { margin: 0; }
+
+	/*============ Klantervaringen style end ============*/
 
 	.inner_banner .container-fluid { max-width: 760px; }
 	.container { max-width: 680px; }

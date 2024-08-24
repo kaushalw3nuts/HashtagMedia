@@ -233,7 +233,8 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 .main_header .logo { display: flex; width: 96px; height: 96px; }
 .main_header .logo a { display: flex; }
 .main_header .logo a img { width: 100%; height: auto; }
-.main_header .navi_wrapper { display: flex; align-items: center; margin-top: 26px; margin-bottom: 36px; }
+.home_header .main_header .navi_wrapper { display: flex; align-items: center; margin-top: 26px; }
+.main_header .navi_wrapper { display: flex; align-items: center; }
 .main_header .navi_wrapper .navigation { display: flex; align-items: center; }
 .main_header .navi_wrapper .navigation li { display: block; position: relative; }
 .main_header .navi_wrapper .navigation li + li { margin-left: 32px; }
