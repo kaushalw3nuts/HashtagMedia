@@ -217,6 +217,25 @@
 
 	/*============ Homepage style end ============*/
 
+	/*============ Klantervaringen style start ============*/
+	
+	.experience_listing { padding: 70px 0 0 0; }
+
+	/*============ Klantervaringen style end ============*/
+
+	/*============ Onze werkwijze style start ============*/
+
+	.onze_werkwijze_inner_wrapper { padding: 40px 0 100px 0; }
+
+	/*============ Onze werkwijze style end ============*/
+
+	/*============ Onze vernieuwers style start ============*/
+
+	.onze_vernieuwers_wrapper .after_banner_sec { padding: 70px 0 30px 0; }
+	.onze_vernieuwers_inner_wrapper { padding: 40px 0 100px 0; }
+
+	/*============ Onze vernieuwers style end ============*/
+
 	.inner_banner .container-fluid { max-width: 1280px; }
 	.container { max-width: 1110px; }
 	h2 { font-size: 45px; }
@@ -320,6 +339,34 @@
 	.footer_main .top_footer { padding-bottom: 80px; }
 
 	/*============ Homepage style end ============*/
+
+	/*============ Klantervaringen style start ============*/
+	
+	.experience_listing { padding: 60px 0 0 0; }
+	.customer_experience { padding: 44px 50px 40px 40px; }
+	.customer_slider .swiper-slide { max-width: 246px; }
+	.customer_slider .customer_img::after { padding: 50%; }
+
+	.klantervaringen-renovation .renovation_box { font-size: 20px; }
+
+	/*============ Klantervaringen style end ============*/
+
+	/*============ Onze werkwijze style start ============*/
+
+	.onze_werkwijze_wrapper .after_banner_sec { padding: 60px 0 30px 0; }
+	.onze_werkwijze_wrapper .home_kitchen_inner_section { padding: 30px 0 40px 0; }
+	.onze_inner_section { padding: 40px 0; }
+	.onze_inner_section h3 { margin-bottom: 40px; }
+	.onze_werkwijze_inner_wrapper { padding: 40px 0 80px 0; }
+
+	/*============ Onze werkwijze style end ============*/
+
+	/*============ Onze vernieuwers style start ============*/
+
+	.onze_vernieuwers_wrapper .after_banner_sec { padding: 60px 0 20px 0; }
+	.onze_vernieuwers_inner_wrapper { padding: 40px 0 80px 0; }
+
+	/*============ Onze vernieuwers style end ============*/
 
 	.inner_banner .container-fluid { max-width: 980px; }
 	.container { max-width: 900px; }
@@ -467,11 +514,32 @@
 	.customer_slider { overflow: visible; }
 	.customer_slider .swiper-slide { max-width: 100%; }
 	.customer_slider .customer_img::after { padding: 30% 50%; }
-	.customer_slider .swiper-wrapper { flex-wrap: nowrap; }
-	.customer_slider .swiper-slide + .swiper-slide { margin: 0; }
+	.customer_slider .swiper-wrapper { flex-wrap: nowrap; gap: 0; }
 	.start_renovation_section { margin: 80px 0; }
 
+	.klantervaringen-detail h3 { margin-bottom: 28px; }
+	.klantervaringen-detail .rate_block { margin-bottom: 28px; }
+
 	/*============ Klantervaringen style end ============*/
+
+	/*============ Onze werkwijze style start ============*/
+
+	.onze_werkwijze_wrapper .after_banner_sec { padding: 60px 0 30px 0; }
+	.onze_werkwijze_wrapper .home_kitchen_inner_section { padding: 30px 0 40px 0; }
+	.onze_werkwijze_wrapper .inner_kitchen .right_wrapper_part .row [class^="col-"] + [class^="col-"] { padding-top: 0 !important; }
+	.onze_inner_section { padding: 40px 0; }
+	.onze_inner_section h3 { margin-bottom: 40px; }
+	.onze_werkwijze_inner_wrapper { padding: 40px 0 80px 0; }
+
+	/*============ Onze werkwijze style end ============*/
+
+	/*============ Onze vernieuwers style start ============*/
+
+	.onze_vernieuwers_wrapper .after_banner_sec { padding: 50px 0 24px 0; }
+	.onze_vernieuwers_wrapper .innovators_section .kitchen_block_wrapper .inner_kitchen .row + .row { margin-top: 64px !important; }
+	.onze_vernieuwers_inner_wrapper { padding: 40px 0 80px 0; }
+
+	/*============ Onze vernieuwers style end ============*/
 
 	/* ================================================================================= */
 	/* Wrappen Page Start */
@@ -645,15 +713,38 @@
 	/*============ Klantervaringen style start ============*/
 
 	.klantervaringen_wrapper { padding: 10px 0 40px 0; }
-	
 	.experience_listing { padding: 56px 0 0 0; }
 	.customer_experience { padding: 44px 40px 40px 40px; overflow: hidden; }
 	.customer_slider { overflow: visible; }
 	.customer_slider .swiper-slide { max-width: 100%; }
-	.customer_slider .swiper-wrapper { flex-wrap: nowrap; }
-	.customer_slider .swiper-slide + .swiper-slide { margin: 0; }
+	.customer_slider .swiper-wrapper { flex-wrap: nowrap; gap: 0; }
+
+	.klantervaringen-review-detail { padding: 52px 0 0 0; }
+	.klantervaringen-detail h3 { margin-bottom: 24px; }
+	.klantervaringen-detail .rate_block { margin-bottom: 24px; }
+	.klantervaringen-renovation .renovation_box { padding: 36px 20px; }
 
 	/*============ Klantervaringen style end ============*/
+
+	/*============ Onze werkwijze style start ============*/
+
+	.onze_werkwijze_wrapper .after_banner_sec { padding: 52px 0 26px 0; }
+	.onze_werkwijze_wrapper .home_kitchen_inner_section { padding: 26px 0 40px 0; }
+	.onze_werkwijze_wrapper .inner_kitchen .row [class^="col-"] + [class^="col-"] { padding-top: 0 !important; }
+	.onze_inner_section { padding: 40px 0; }
+	.onze_inner_section h3 { margin-bottom: 40px; }
+	.onze_werkwijze_inner_wrapper { padding: 40px 0 80px 0; }
+
+	/*============ Onze werkwijze style end ============*/
+
+	/*============ Onze vernieuwers style start ============*/
+
+	.onze_vernieuwers_wrapper .after_banner_sec { padding: 50px 0 24px 0; }
+	.onze_vernieuwers_wrapper .inner_kitchen .row [class^="col-"] + [class^="col-"] { padding-top: 0 !important; }
+	.onze_vernieuwers_wrapper .innovators_section .kitchen_block_wrapper .inner_kitchen .row + .row { margin-top: 64px !important; }
+	.onze_vernieuwers_inner_wrapper { padding: 24px 0 64px 0; }
+
+	/*============ Onze vernieuwers style end ============*/
 
 	.inner_banner .container-fluid { max-width: 760px; }
 	.container { max-width: 680px; }
