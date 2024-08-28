@@ -624,6 +624,7 @@ p { font-family: 'Montserrat'; font-size: 16px; font-weight: 500; line-height: 1
 .appointment_img { width: 100%; display: block; }
 .appointment_img_box { width: 100%; display: block; overflow: hidden; border-radius: 24px 0 24px 0; background-color: var(--lightwhite); }
 .appointment_img_box:after { content: ''; display: block; padding: 47.838% 50%; }
+.appointment_img_box img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
 .appointment_renovation_today { width: 100%; position: relative; padding: 28px 0; }
 .renovation_today_box { width: 100%; position: relative; background-color: var(--pink); border-radius: 0 20px 0 20px; padding: 20px 19px; text-align: center; color: var(--white); font-family: 'Museo 500'; font-size: 26px; line-height: 1.19231; }
 
