@@ -1,5 +1,31 @@
 
 @media (min-width: 1400px) and (max-width: 1500px) {
+
+	/*============ Homepage style start ============*/
+
+	.home_header .main_header .logo { height: 140px; width: 140px; }
+	
+	.home_banner { margin: -36px 0 0 0; }
+	.home_bnr_wrapper .bnr_text { left: 100px; max-width: 740px; }
+	h1 { font-size: 100px; }
+	.home_bnr_wrapper .rate_section { right: 140px; }
+	
+	.maintain_wrap .maintain_card .block_inner { padding: 40px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap { height: 100px; width: 100px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap .icon { max-width: 40px; }
+	.maintain_wrap .maintain_card .block_inner .title { font-size: 24px; }
+	
+	.start_renovation_section { margin: 100px 0; }
+	
+	.transformation_section { margin: 100px 0 0 0; }
+	.transformation_section .container { max-width: 1110px; }
+
+	.review_section { margin: 100px 0; }
+
+	.footer_main .top_footer { padding-bottom: 100px; }
+
+	/*============ Homepage style end ============*/
+
 	.inner_banner .container-fluid { max-width: 1300px; }
 	.container { max-width: 1110px; }
 	h2 { font-size: 55px; }
@@ -69,6 +95,33 @@
 }
 
 @media (min-width: 1301px) and (max-width: 1399px) {
+
+	/*============ Homepage style start ============*/
+
+	.home_header .main_header .logo { height: 140px; width: 140px; }
+	.main_header .logo { height: 90px; width: 90px; }
+	
+	.home_banner { margin: -36px 0 0 0; }
+	.home_bnr_wrapper .bnr_text { left: 100px; max-width: 720px; }
+	h1 { font-size: 100px; }
+	.home_bnr_wrapper .rate_section { right: 100px; }
+	
+	.maintain_wrap .maintain_card .block_inner { padding: 40px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap { height: 100px; width: 100px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap .icon { max-width: 40px; }
+	.maintain_wrap .maintain_card .block_inner .title { font-size: 24px; }
+	
+	.start_renovation_section { margin: 100px 0; }
+	
+	.transformation_section { margin: 100px 0 0 0; }
+	.transformation_section .container { max-width: 1110px; }
+
+	.review_section { margin: 100px 0; }
+
+	.footer_main .top_footer { padding-bottom: 100px; }
+
+	/*============ Homepage style end ============*/
+
 	.inner_banner .container-fluid { max-width: 1300px; }
 	.container { max-width: 1110px; }
 	h2 { font-size: 55px; }
@@ -137,6 +190,52 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1300px) {
+
+	/*============ Homepage style start ============*/
+
+	.home_header .main_header .logo { height: 130px; width: 130px; }
+	.main_header .logo { height: 80px; width: 80px; }
+	
+	.home_banner { margin: -32px 0 0 0; }
+	.home_bnr_wrapper .bnr_text { bottom: 60px; left: 90px; max-width: 700px; }
+	h1 { font-size: 90px; }
+	.home_bnr_wrapper .rate_section { right: 80px; }
+	
+	.maintain_wrap .maintain_card .block_inner { padding: 30px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap { height: 90px; width: 90px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap .icon { max-width: 40px; }
+	.maintain_wrap .maintain_card .block_inner .title { font-size: 24px; }
+	
+	.start_renovation_section { margin: 90px 0; }
+	
+	.transformation_section { margin: 90px 0 0 0; }
+	.transformation_section .container { max-width: 1110px; }
+
+	.review_section { margin: 90px 0; }
+
+	.footer_main .top_footer { padding-bottom: 90px; }
+
+	/*============ Homepage style end ============*/
+
+	/*============ Klantervaringen style start ============*/
+	
+	.experience_listing { padding: 70px 0 0 0; }
+
+	/*============ Klantervaringen style end ============*/
+
+	/*============ Onze werkwijze style start ============*/
+
+	.onze_werkwijze_inner_wrapper { padding: 40px 0 100px 0; }
+
+	/*============ Onze werkwijze style end ============*/
+
+	/*============ Onze vernieuwers style start ============*/
+
+	.onze_vernieuwers_wrapper .after_banner_sec { padding: 70px 0 30px 0; }
+	.onze_vernieuwers_inner_wrapper { padding: 40px 0 100px 0; }
+
+	/*============ Onze vernieuwers style end ============*/
+
 	.inner_banner .container-fluid { max-width: 1280px; }
 	.container { max-width: 1110px; }
 	h2 { font-size: 45px; }
@@ -210,6 +309,65 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
+	/*============ Homepage style start ============*/
+
+	.home_header .main_header .logo { height: 110px; width: 110px; }
+	.main_header .navi_wrapper .navigation li + li { margin-left: 26px; }
+	.main_header .navi_wrapper .btnbox { margin-left: 26px; }
+	.primary-btn { height: 44px; }
+	.main_header .logo { height: 80px; width: 80px; }
+
+	.home_banner { margin: -24px 0 0 0; }
+	.home_bnr_wrapper .bnr_text { bottom: 50px; left: 80px; max-width: 660px; }
+	h1 { font-size: 80px; }
+	.home_bnr_wrapper .rate_section { top: 60px; right: 60px; }
+
+	.maintain_wrap .maintain_card .block_inner { padding: 20px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap { height: 80px; width: 80px; }
+	.maintain_wrap .maintain_card .block_inner .icon_Wrap .icon { max-width: 40px; }
+	.maintain_wrap .maintain_card .block_inner .title { font-size: 20px; margin-top: 18px; }
+	.maintain_wrap .maintain_card .block_inner p { margin-top: 18px; font-size: 14px; }
+
+	.start_renovation_section { margin: 80px 0; }
+
+	.transformation_section { margin: 80px 0 0 0; }
+	.transformation_section .container { max-width: 900px; }
+
+	.review_section { margin: 80px 0; }
+
+	.footer_main .top_footer { padding-bottom: 80px; }
+
+	/*============ Homepage style end ============*/
+
+	/*============ Klantervaringen style start ============*/
+	
+	.experience_listing { padding: 60px 0 0 0; }
+	.customer_experience { padding: 44px 50px 40px 40px; }
+	.customer_slider .swiper-slide { max-width: 246px; }
+	.customer_slider .customer_img::after { padding: 50%; }
+
+	.klantervaringen-renovation .renovation_box { font-size: 20px; }
+
+	/*============ Klantervaringen style end ============*/
+
+	/*============ Onze werkwijze style start ============*/
+
+	.onze_werkwijze_wrapper .after_banner_sec { padding: 60px 0 30px 0; }
+	.onze_werkwijze_wrapper .home_kitchen_inner_section { padding: 30px 0 40px 0; }
+	.onze_inner_section { padding: 40px 0; }
+	.onze_inner_section h3 { margin-bottom: 40px; }
+	.onze_werkwijze_inner_wrapper { padding: 40px 0 80px 0; }
+
+	/*============ Onze werkwijze style end ============*/
+
+	/*============ Onze vernieuwers style start ============*/
+
+	.onze_vernieuwers_wrapper .after_banner_sec { padding: 60px 0 20px 0; }
+	.onze_vernieuwers_inner_wrapper { padding: 40px 0 80px 0; }
+
+	/*============ Onze vernieuwers style end ============*/
+
 	.inner_banner .container-fluid { max-width: 980px; }
 	.container { max-width: 900px; }
 	h2 { font-size: 45px; }
@@ -295,15 +453,16 @@
 	/*============ Homepage style start ============*/
 
 	.home_header .main_header { margin: 16px 0; align-items: center; }
-	.main_header .navi_wrapper { margin: 0; }
+	.home_header .main_header .navi_wrapper { margin: 0; }
 	.home_header .main_header .logo { width: 70px; height: 70px; }
 	.main_header .navi_wrapper .btnbox { margin: 0; }
 	.main_header .navi_wrapper .btnbox .primary-btn { height: 40px; padding: 0 20px; }
-	.main_header .navi_wrapper .navigation { position: fixed; background: var(--white); left: 0; top: 0; bottom: 0; overflow-y: auto; width: 100%; max-width: 756px; z-index: 5; padding: 90px 20px 30px 20px; transform: translateX(-100%); transition: all ease-in-out 0.3s; border-radius: 0 24px 0 0; box-shadow: 0 0 5px rgba(0, 0, 0, 0.16); }
+	.main_header .navi_wrapper .navigation { position: fixed; background: var(--white); left: 0; top: 0; bottom: 0; overflow-y: auto; width: 100%; max-width: calc(100% - 14px); z-index: 5; padding: 90px 20px 30px 20px; transform: translateX(-100%); transition: all ease-in-out 0.3s; border-radius: 0 24px 0 0; box-shadow: 0 0 5px rgba(0, 0, 0, 0.16); }
 	.main_header .navi_wrapper .navigation.slide { transform: translateX(0); }
 	.main_header .navi_wrapper .navigation { flex-direction: column; align-items: flex-start; }
 	.main_header .navi_wrapper .navigation li + li { margin: 36px 0 0 0; }
 	.main_header .navi_wrapper .navigation li a { font-size: 16px; font-weight: 600; }
+	.main_header .logo { height: 70px; width: 70px; }
 
 	.menu-btn { position: relative; display: flex; align-items: center; width: 22px; height: 16px; margin: 0 22px 0 34px; z-index: 111; }
 	.menu-btn span { display: block; width: 100%; height: 2px; position: relative; background: var(--green100); border-radius: 2px; }
@@ -333,7 +492,54 @@
 	.maintain_wrap .maintain_card .block_inner .icon_Wrap .icon { max-width: 40px; }
 	.maintain_wrap .maintain_card .block_inner .title { font-size: 24px; }
 
+	.home_kitchen_section .inner_kitchen .right_wrapper_part .row [class^="col-"] + [class^="col-"] { padding: 0 12px !important; }
+	.home_kitchen_section .start_renovation_section { margin: 80px 0; padding: 52px 50px; }
+	
+	.transformation_section { margin-top: 70px; }
+	.transformation_inner .transformation_title_section { margin: 0 auto 40px auto; }
+	.transformation_inner .btnbox { margin-top: 40px; }
+
+	.review_section { margin: 80px 0; }
+	
+	.footer_main .top_footer { padding-bottom: 50px; flex-wrap: wrap; row-gap: 50px; }
+	.top_footer .box_wrapper { width: 50%; }
+	.footer_main .bottom_footer { align-items: flex-start; }
+
 	/*============ Homepage style end ============*/
+
+	/*============ Klantervaringen style start ============*/
+	
+	.experience_listing { padding: 60px 0 0 0; }
+	.customer_experience { padding: 44px 50px 40px 40px; overflow: hidden; }
+	.customer_slider { overflow: visible; }
+	.customer_slider .swiper-slide { max-width: 100%; }
+	.customer_slider .customer_img::after { padding: 30% 50%; }
+	.customer_slider .swiper-wrapper { flex-wrap: nowrap; gap: 0; }
+	.start_renovation_section { margin: 80px 0; }
+
+	.klantervaringen-detail h3 { margin-bottom: 28px; }
+	.klantervaringen-detail .rate_block { margin-bottom: 28px; }
+
+	/*============ Klantervaringen style end ============*/
+
+	/*============ Onze werkwijze style start ============*/
+
+	.onze_werkwijze_wrapper .after_banner_sec { padding: 60px 0 30px 0; }
+	.onze_werkwijze_wrapper .home_kitchen_inner_section { padding: 30px 0 40px 0; }
+	.onze_werkwijze_wrapper .inner_kitchen .right_wrapper_part .row [class^="col-"] + [class^="col-"] { padding-top: 0 !important; }
+	.onze_inner_section { padding: 40px 0; }
+	.onze_inner_section h3 { margin-bottom: 40px; }
+	.onze_werkwijze_inner_wrapper { padding: 40px 0 80px 0; }
+
+	/*============ Onze werkwijze style end ============*/
+
+	/*============ Onze vernieuwers style start ============*/
+
+	.onze_vernieuwers_wrapper .after_banner_sec { padding: 50px 0 24px 0; }
+	.onze_vernieuwers_wrapper .innovators_section .kitchen_block_wrapper .inner_kitchen .row + .row { margin-top: 64px !important; }
+	.onze_vernieuwers_inner_wrapper { padding: 40px 0 80px 0; }
+
+	/*============ Onze vernieuwers style end ============*/
 
 	/* ================================================================================= */
 	/* Wrappen Page Start */
@@ -432,15 +638,16 @@
 
 	.home_header .main_header { margin: 16px 0; align-items: center; }
 	.container { padding: 0 16px; }
-	.main_header .navi_wrapper { margin: 0; }
+	.home_header .main_header .navi_wrapper { margin: 0; }
 	.home_header .main_header .logo { width: 56px; height: 56px; }
 	.main_header .navi_wrapper .btnbox { margin: 0; }
 	.main_header .navi_wrapper .btnbox .primary-btn { height: 40px; padding: 0 20px; font-size: 13px; font-weight: 400; border-radius: 4px; }
-	.main_header .navi_wrapper .navigation { position: fixed; background: var(--white); left: 0; top: 0; bottom: 0; overflow-y: auto; width: 100%; max-width: 376px; z-index: 5; padding: 90px 24px 30px 16px; transform: translateX(-100%); transition: all ease-in-out 0.3s; border-radius: 0 24px 0 0; box-shadow: 0 0 5px rgba(0, 0, 0, 0.16); }
+	.main_header .navi_wrapper .navigation { position: fixed; background: var(--white); left: 0; top: 0; bottom: 0; overflow-y: auto; width: 100%; max-width: calc(100% - 14px); z-index: 5; padding: 90px 24px 30px 16px; transform: translateX(-100%); transition: all ease-in-out 0.3s; border-radius: 0 24px 0 0; box-shadow: 0 0 5px rgba(0, 0, 0, 0.16); }
 	.main_header .navi_wrapper .navigation.slide { transform: translateX(0); }
 	.main_header .navi_wrapper .navigation { flex-direction: column; align-items: flex-start; }
 	.main_header .navi_wrapper .navigation li + li { margin: 36px 0 0 0; }
 	.main_header .navi_wrapper .navigation li a { font-size: 16px; font-weight: 600; }
+	.main_header .logo { height: 56px; width: 56px; }
 
 	.menu-btn { position: relative; display: flex; align-items: center; width: 22px; height: 16px; margin: 0 22px 0 34px; z-index: 111; }
 	.menu-btn span { display: block; width: 100%; height: 2px; position: relative; background: var(--green100); border-radius: 2px; }
@@ -464,7 +671,7 @@
 	.home_bnr_wrapper .bnr_text { max-width: 100%; left: 24px; bottom: 24px; }
 	h1 { font-size: 40px; }
 	.home_bnr_wrapper .bnr_text h1 { margin: 0 10px 17px 0;  }
-	.tag_block .tag { border-radius: 0 10px; font-size: 20px; }
+	.home_bnr_wrapper .tag_block .tag { max-width: 100%; padding: 10px 20px; border-radius: 0 10px; font-size: 20px; }
 
 	.maintain_wrap .row { row-gap: 52px; }
 	.maintain_wrap .maintain_card .block_inner { padding: 0 20px; }
@@ -481,6 +688,7 @@
 	.inner_kitchen .right_wrapper_part .person_img .image::after { padding: 35.68% 50%; }
 	.inner_kitchen .right_wrapper_part .row { margin: 0 -8px !important; }
 	.inner_kitchen .right_wrapper_part .row>* { padding: 0 8px !important; }
+	.home_kitchen_section .inner_kitchen .row [class^="col-"] + [class^="col-"] { padding: 0 8px !important; }
 
 	.start_renovation_section { margin: 80px 0; padding: 52px 50px; }
 
@@ -489,6 +697,8 @@
 	.transformation_inner .transformation_title_section p + p { margin-top: 22px; }
 	.transformation_inner .transformation_title_section .report_bolck { justify-content: flex-start; }
 	.transformation_inner .btnbox { margin-top: 36px; justify-content: flex-start; }
+	
+	.review_section { margin: 64px 0 80px 0; }
 
 	.footer_main .top_footer { flex-direction: column; padding-bottom: 32px; border: none; }
 	.top_footer .box_wrapper + .box_wrapper { margin-top: 50px; }
@@ -499,6 +709,42 @@
 	.footer_main .bottom_footer .copy_privacy .copy + a::after { display: none; }
 
 	/*============ Homepage style end ============*/
+
+	/*============ Klantervaringen style start ============*/
+
+	.klantervaringen_wrapper { padding: 10px 0 40px 0; }
+	.experience_listing { padding: 56px 0 0 0; }
+	.customer_experience { padding: 44px 40px 40px 40px; overflow: hidden; }
+	.customer_slider { overflow: visible; }
+	.customer_slider .swiper-slide { max-width: 100%; }
+	.customer_slider .swiper-wrapper { flex-wrap: nowrap; gap: 0; }
+
+	.klantervaringen-review-detail { padding: 52px 0 0 0; }
+	.klantervaringen-detail h3 { margin-bottom: 24px; }
+	.klantervaringen-detail .rate_block { margin-bottom: 24px; }
+	.klantervaringen-renovation .renovation_box { padding: 36px 20px; }
+
+	/*============ Klantervaringen style end ============*/
+
+	/*============ Onze werkwijze style start ============*/
+
+	.onze_werkwijze_wrapper .after_banner_sec { padding: 52px 0 26px 0; }
+	.onze_werkwijze_wrapper .home_kitchen_inner_section { padding: 26px 0 40px 0; }
+	.onze_werkwijze_wrapper .inner_kitchen .row [class^="col-"] + [class^="col-"] { padding-top: 0 !important; }
+	.onze_inner_section { padding: 40px 0; }
+	.onze_inner_section h3 { margin-bottom: 40px; }
+	.onze_werkwijze_inner_wrapper { padding: 40px 0 80px 0; }
+
+	/*============ Onze werkwijze style end ============*/
+
+	/*============ Onze vernieuwers style start ============*/
+
+	.onze_vernieuwers_wrapper .after_banner_sec { padding: 50px 0 24px 0; }
+	.onze_vernieuwers_wrapper .inner_kitchen .row [class^="col-"] + [class^="col-"] { padding-top: 0 !important; }
+	.onze_vernieuwers_wrapper .innovators_section .kitchen_block_wrapper .inner_kitchen .row + .row { margin-top: 64px !important; }
+	.onze_vernieuwers_inner_wrapper { padding: 24px 0 64px 0; }
+
+	/*============ Onze vernieuwers style end ============*/
 
 	.inner_banner .container-fluid { max-width: 760px; }
 	.container { max-width: 680px; }
