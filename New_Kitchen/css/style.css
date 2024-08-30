@@ -662,7 +662,7 @@ body.error404 .site-main { padding: 0 !important; }
 .appointment_top_title h3 { padding: 0 0 30px 0; }
 .appointment_right { width: 100%; display: block; max-width: 485px; margin-left: auto; }
 .appointment_img { width: 100%; display: block; }
-.appointment_img_box { width: 100%; display: block; overflow: hidden; border-radius: 24px 0 24px 0; background-color: var(--lightwhite); }
+.appointment_img_box { width: 100%; display: block; overflow: hidden; position: relative; border-radius: 24px 0 24px 0; background-color: var(--lightwhite); }
 .appointment_img_box:after { content: ''; display: block; padding: 47.838% 50%; }
 .appointment_img_box img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
 .appointment_renovation_today { width: 100%; position: relative; padding: 28px 0; }
