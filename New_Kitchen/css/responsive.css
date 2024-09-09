@@ -121,6 +121,7 @@
 	.home_bnr_wrapper .bnr_text { left: 100px; max-width: 720px; }
 	h1 { font-size: 100px; }
 	.home_bnr_wrapper .rate_section { right: 100px; }
+	.home_bnr_wrapper .bnr_shape { bottom: -5px; }
 	
 	.maintain_wrap .maintain_card .block_inner { padding: 40px; }
 	.maintain_wrap .maintain_card .block_inner .icon_Wrap { height: 100px; width: 100px; }
@@ -233,6 +234,8 @@
 	.home_bnr_wrapper .bnr_text { bottom: 60px; left: 90px; max-width: 700px; }
 	h1 { font-size: 90px; }
 	.home_bnr_wrapper .rate_section { right: 80px; }
+	.home_bnr_wrapper .bnr_img { clip-path: polygon(0 0, 100% 0%, 100% 92.3%, 0% 106%); }
+	.home_bnr_wrapper .bnr_shape { bottom: -9px; }
 	
 	.maintain_wrap .maintain_card .block_inner { padding: 30px; }
 	.maintain_wrap .maintain_card .block_inner .icon_Wrap { height: 90px; width: 90px; }
@@ -373,6 +376,8 @@
 	.home_bnr_wrapper .bnr_text { bottom: 50px; left: 80px; max-width: 660px; }
 	h1 { font-size: 80px; }
 	.home_bnr_wrapper .rate_section { top: 60px; right: 60px; }
+	.home_bnr_wrapper .bnr_shape { right: -42px; bottom: -19px; width: 648px; }
+	.home_bnr_wrapper .bnr_img { clip-path: polygon(0 0, 100% 0%, 100% 92.5%, 0% 106%); }
 
 	.maintain_wrap .maintain_card .block_inner { padding: 20px; }
 	.maintain_wrap .maintain_card .block_inner .icon_Wrap { height: 80px; width: 80px; }
@@ -524,6 +529,7 @@
 	.appointment_right { max-width: 365px; }
 	.renovation_today_box { font-size: 21px; }
 	.expect_blk h3 { padding: 0 0 39px; }
+	.afspraak_maken_wrapper .form_wrap_gravity .gform_wrapper .gform_fields .gfield.half-input { width: 100%; }
 	/* ================================================================================= */
 	/* Afspraak Maken Page End */
 	/* ================================================================================= */
@@ -757,6 +763,8 @@
 	/* ================================================================================= */
 	/* Afspraak Maken Page End */
 	/* ================================================================================= */
+	#sbi_images > .sbi_item:nth-child(odd) { padding-top: 20px; }
+	#sb_instagram #sbi_images .sbi_item { gap: 10px !important; }
 
 }
 
@@ -1020,8 +1028,15 @@
 	.renovation_today_box { font-size: 21px; }
 	.expect_sec { padding: 40px 0; }
 	.expect_blk h3 { padding: 0 0 43px; }
+	
+	.form_wrap_gravity .gform_wrapper .gform_fields .gfield.half-input { width: 100%; } 
 	/* ================================================================================= */
 	/* Afspraak Maken Page End */
 	/* ================================================================================= */
+
+	#sbi_images.swiper-wrapper { display: -ms-flexbox !important; display: flex !important; }
+	.swiper.insta_slider { overflow: visible; max-width: calc(100% - 86px); margin: 0; }
+	#sb_instagram #sbi_images .sbi_item { padding-top: 0 !important;  margin: 0 20px 0 0 !important; }
+	.insta_slider .swiper-wrapper { gap: 0 !important; }
 
 }
